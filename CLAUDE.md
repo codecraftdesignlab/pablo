@@ -27,7 +27,8 @@ See `config/preferences.yaml` for user preferences and briefing settings.
 
 | Skill | Purpose |
 |---|---|
-| `/morning` | Daily briefing — vault status, carried-forward items, focus suggestions |
+| `/morning` | Daily briefing — priorities, vault status, email, calendar, focus suggestions |
+| `/wrap-up` | End-of-session handoff — capture priorities for next session |
 | `/note` | Quick note capture to Obsidian vault |
 | `/bookmark` | Save a URL as a bookmark note with summary and tags |
 | `/organise` | Scan vault, fix frontmatter, suggest moves, add missing links |

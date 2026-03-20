@@ -6,7 +6,7 @@ user:
   role: "Founder / Developer"
   timezone: Europe/London
   language: en-GB
-  tone: concise
+  tone: concise but fiendly
 
 morning_briefing:
   # Slack section — only included when slack status is active in accounts.yaml
