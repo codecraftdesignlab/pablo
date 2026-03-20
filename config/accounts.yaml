@@ -17,18 +17,27 @@ slack:
   notes: "Awaiting MCP Slack integration setup."
 
 gmail:
-  status: pending
-  email: "placeholder@gmail.com"
+  status: active
+  email: "tim.bland@stolengoat.com"
   access: google-api
   credentials: google-service-account-key.json
-  notes: "Awaiting Google Workspace API configuration."
+  service_account: "pablo-766@pablo-490815.iam.gserviceaccount.com"
+  scopes:
+    - https://www.googleapis.com/auth/gmail.readonly
+    - https://www.googleapis.com/auth/gmail.compose
+    - https://www.googleapis.com/auth/gmail.modify
+  notes: "Domain-wide delegation via service account. Impersonates tim.bland@stolengoat.com."
 
 google_calendar:
-  status: pending
-  email: "placeholder@gmail.com"
+  status: active
+  email: "tim.bland@stolengoat.com"
   access: google-api
   credentials: google-service-account-key.json
-  notes: "Awaiting Google Workspace API configuration."
+  service_account: "pablo-766@pablo-490815.iam.gserviceaccount.com"
+  scopes:
+    - https://www.googleapis.com/auth/calendar.readonly
+    - https://www.googleapis.com/auth/calendar.events
+  notes: "Domain-wide delegation via service account. Impersonates tim.bland@stolengoat.com."
 
 canva:
   status: available
@@ -40,12 +49,3 @@ github:
   access: cli
   notes: "Available via gh CLI. Not yet integrated into Pablo workflows."
 
-linear:
-  status: available
-  access: api
-  notes: "Not yet integrated."
-
-asana:
-  status: available
-  access: api
-  notes: "Not yet integrated."
