@@ -1,0 +1,37 @@
+# Pablo — User Preferences
+# Read at session start to personalise behaviour
+
+user:
+  name: Tim
+  role: "Founder / Developer"
+  timezone: Europe/London
+  language: en-GB
+  tone: concise
+
+morning_briefing:
+  # Slack section — only included when slack status is active in accounts.yaml
+  slack:
+    channels:
+      - general
+      - dev
+    lookback_hours: 16
+
+  # Obsidian section — always included
+  obsidian:
+    check_inbox: true
+    check_yesterdays_journal: true
+    check_open_todos: true
+    check_recent_activity: true
+    recent_activity_hours: 24
+
+  summary_style: structured
+  closing_prompt: "What shall we focus on today?"
+
+task_management:
+  default_location: inbox
+  auto_tag: true
+  priority_labels:
+    - urgent
+    - high
+    - normal
+    - low
