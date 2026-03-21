@@ -1,0 +1,68 @@
+# Prospect Finder — Search Strategies
+# Queries grouped by signal tier. {focus} is replaced at runtime.
+# Weight determines priority (higher = searched first).
+# Queries should find ORGANISATIONS, not kit suppliers.
+
+tiers:
+  - name: buying_signals
+    weight: 5
+    queries:
+      - '"{focus}" "new kit" OR "new jersey" OR "kit sponsor"'
+      - '"{focus}" "looking for" sponsor OR supplier cycling'
+      - '"{focus}" "kit launch" OR "new kit deal" cycling'
+
+  - name: timing_signals
+    weight: 4
+    queries:
+      - '"{focus}" 2026 charity ride registration open'
+      - '"{focus}" 2026 sportive entries open'
+      - '"{focus}" 2026 cycling event calendar UK'
+
+  - name: discovery_charity
+    weight: 3
+    queries:
+      - '{focus} charity bike ride UK 2025 OR 2026'
+      - '{focus} charity cycling challenge fundraiser UK'
+      - '{focus} charity sportive UK registration'
+
+  - name: discovery_club
+    weight: 3
+    queries:
+      - '{focus} cycling club UK members'
+      - '{focus} cycling club UK "join us"'
+      - '{focus} new cycling club 2025 OR 2026 UK'
+
+  - name: discovery_event
+    weight: 3
+    queries:
+      - '{focus} sportive UK 2026 entry'
+      - '{focus} cycling event organiser UK'
+      - '{focus} gran fondo UK 2026'
+
+  - name: discovery_corporate
+    weight: 3
+    queries:
+      - '{focus} corporate cycling challenge UK'
+      - '{focus} company cycling team charity'
+      - '{focus} corporate bike ride UK 2026'
+
+  - name: general_awareness
+    weight: 1
+    queries:
+      - '{focus} cycling club UK custom kit'
+      - '{focus} charity cycling events UK'
+
+# Default focus areas per prospect type
+defaults:
+  charity:
+    - "charity cycling"
+    - "charity bike ride fundraiser"
+  corporate:
+    - "corporate cycling challenge"
+    - "corporate team cycling"
+  event:
+    - "cycling sportive"
+    - "cycling event organiser"
+  club:
+    - "cycling club"
+    - "road cycling club"
