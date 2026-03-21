@@ -107,19 +107,23 @@ def search_web(query, budget, max_results=None):
 
 	budget.use()
 
-	resp = requests.get(
-		"https://serpapi.com/search",
-		params={
-			"q": query,
-			"api_key": SERP_API_KEY,
-			"engine": "google",
-			"num": max_results,
-			"gl": "uk",
-			"hl": "en",
-		},
-		timeout=30,
-	)
-	resp.raise_for_status()
+	try:
+		resp = requests.get(
+			"https://serpapi.com/search",
+			params={
+				"q": query,
+				"api_key": SERP_API_KEY,
+				"engine": "google",
+				"num": max_results,
+				"gl": "uk",
+				"hl": "en",
+			},
+			timeout=30,
+		)
+		resp.raise_for_status()
+	except requests.exceptions.RequestException as e:
+		print(f"  Warning: search failed ({e})")
+		return []
 	data = resp.json()
 
 	results = []

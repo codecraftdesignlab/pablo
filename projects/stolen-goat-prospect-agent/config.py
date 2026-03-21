@@ -13,8 +13,14 @@ from dotenv import load_dotenv
 PABLO_DIR = Path("C:/ClaudeProjects/pablo")
 load_dotenv(PABLO_DIR / ".env")
 
-ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
-SERP_API_KEY = os.environ["SERP_API_KEY"]
+def _require_env(key):
+	val = os.environ.get(key)
+	if not val:
+		raise SystemExit(f"Missing required environment variable: {key}. Check {PABLO_DIR / '.env'}")
+	return val
+
+ANTHROPIC_API_KEY = _require_env("ANTHROPIC_API_KEY")
+SERP_API_KEY = _require_env("SERP_API_KEY")
 
 # ── Vault paths ──────────────────────────────────────────────────────────────
 

@@ -58,7 +58,7 @@ def write_prospect(yaml_fields, markdown_sections, dedup_checker):
 		return None
 
 	now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
-	prospect_id = "PRO-" + re.sub(r"[^A-Z0-9-]", "", slug.upper().replace("-", "-"))
+	prospect_id = "PRO-" + re.sub(r"[^A-Z0-9-]", "", slug.upper())
 
 	# Build frontmatter
 	urls_yaml = _format_urls_yaml(yaml_fields.get("urls", []))

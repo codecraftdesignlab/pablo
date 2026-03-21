@@ -166,7 +166,8 @@ def run(args):
 		# Deep research — additional search on the specific org
 		page_texts = {}
 		if not budget.exhausted:
-			deep_results = search_web(f'"{name}" cycling kit OR events OR club', budget)
+			safe_name = name.replace('"', '').replace("'", "")
+			deep_results = search_web(f'"{safe_name}" cycling kit OR events OR club', budget)
 			# Also fetch the candidate's own page
 			all_results = [{"link": url, "title": name, "snippet": snippet}] + deep_results
 			if not budget.exhausted:
