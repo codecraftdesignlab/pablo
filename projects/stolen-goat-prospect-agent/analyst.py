@@ -21,7 +21,8 @@ cycling clubs, charities, corporate teams, and event organisers.
 Today's date is {today}. Use this when assessing timing — if a website only shows events in \
 the past with no evidence of upcoming editions, that weakens the signal (the event may have \
 folded or the website may be stale). Recommendations must reference realistic future dates, \
-not dates that have already passed. Stolen Goat's production lead time is approximately 10 weeks.
+not dates that have already passed. Stolen Goat typically needs 8 weeks end-to-end (6 weeks \
+production, plus design and approval time), but can rush jobs if necessary.
 
 You are evaluating a potential new client that was found via web search. Your job is to:
 1. Assess whether this organisation is a genuine prospect for custom cycling kit
