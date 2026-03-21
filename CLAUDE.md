@@ -36,6 +36,7 @@ Detailed instructions: `skills/orchestrator/`
 | Planner | Specs, architecture, task breakdowns | `agents/planner/CLAUDE.md` |
 | Builder | Code implementation, tests, docs | `agents/builder/CLAUDE.md` |
 | Reviewer | Code audit, security, quality checks | `agents/reviewer/CLAUDE.md` |
+| Researcher | Web research, domain analysis, competitive intel | `agents/researcher/CLAUDE.md` |
 
 **Key principle:** Agents are permanent, projects come and go. State files replace conversation history.
 

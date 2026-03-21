@@ -1,0 +1,5 @@
+{"id": "TASK-001", "title": "Design the Research Agent", "status": "done", "agent": "planner", "milestone": 0, "brief": "briefs/TASK-001.md", "created": "2026-03-21"}
+{"id": "TASK-002", "title": "Create the Researcher agent CLAUDE.md", "status": "done", "agent": "builder", "milestone": 1, "brief": "briefs/TASK-002.md", "created": "2026-03-21"}
+{"id": "TASK-003", "title": "Create research directory in template and current project", "status": "done", "agent": "builder", "milestone": 1, "brief": "briefs/TASK-003.md", "created": "2026-03-21"}
+{"id": "TASK-004", "title": "Register the Researcher in Pablo's configuration", "status": "done", "agent": "builder", "milestone": 2, "brief": "briefs/TASK-004.md", "created": "2026-03-21", "depends": ["TASK-002"]}
+{"id": "TASK-005", "title": "Validate Researcher agent with test research task", "status": "done", "agent": "researcher", "milestone": 3, "brief": "briefs/TASK-005.md", "created": "2026-03-21", "depends": ["TASK-002", "TASK-003", "TASK-004"]}

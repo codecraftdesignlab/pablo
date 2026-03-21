@@ -39,6 +39,11 @@ google_calendar:
     - https://www.googleapis.com/auth/calendar.events
   notes: "Domain-wide delegation via service account. Impersonates tim.bland@stolengoat.com."
 
+web_search:
+  status: active
+  access: native-tools
+  notes: "Uses Claude Code's built-in WebSearch and WebFetch tools. No API key or MCP config required. Primary consumer: Researcher agent."
+
 canva:
   status: available
   access: mcp
