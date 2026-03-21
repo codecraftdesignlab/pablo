@@ -4,16 +4,24 @@ Evaluates candidate organisations and produces structured prospect assessments.
 """
 
 import re
+from datetime import date
 
 import anthropic
 
 from config import ANTHROPIC_API_KEY, CLAUDE_MODEL
 
 
-SYSTEM_PROMPT = """\
+def _system_prompt():
+	today = date.today().strftime("%Y-%m-%d")
+	return f"""\
 You are a prospect researcher for Stolen Goat, a UK company that designs and manufactures \
 premium custom cycling and sports kit (jerseys, bib shorts, accessories). Your clients are \
 cycling clubs, charities, corporate teams, and event organisers.
+
+Today's date is {today}. Use this when assessing timing — if a website only shows events in \
+the past with no evidence of upcoming editions, that weakens the signal (the event may have \
+folded or the website may be stale). Recommendations must reference realistic future dates, \
+not dates that have already passed. Stolen Goat's production lead time is approximately 10 weeks.
 
 You are evaluating a potential new client that was found via web search. Your job is to:
 1. Assess whether this organisation is a genuine prospect for custom cycling kit
@@ -85,7 +93,7 @@ def evaluate_candidate(candidate_name, candidate_url, search_snippet, page_texts
 	message = client.messages.create(
 		model=CLAUDE_MODEL,
 		max_tokens=4096,
-		system=SYSTEM_PROMPT,
+		system=_system_prompt(),
 		messages=[{"role": "user", "content": user_prompt}],
 	)
 
