@@ -13,6 +13,7 @@ PROJECTS_DIR="$PABLO_DIR/projects"
 TEMPLATES_DIR="$PABLO_DIR/templates/new-project"
 LOGS_DIR="$PABLO_DIR/logs"
 LOG_FILE="$LOGS_DIR/orchestration.jsonl"
+PROJECTS_YAML="$PABLO_DIR/config/projects.yaml"
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
 
@@ -38,30 +39,79 @@ usage() {
 	echo "Projects live in: $PROJECTS_DIR"
 }
 
+resolve_project_dir() {
+	local project="$1"
+	# Check internal projects first
+	if [ -d "$PROJECTS_DIR/$project" ]; then
+		echo "$PROJECTS_DIR/$project"
+		return
+	fi
+	# Check external projects registry
+	if [ -f "$PROJECTS_YAML" ]; then
+		local ext_path
+		ext_path="$(grep -A1 "^  $project:" "$PROJECTS_YAML" | grep "path:" | sed 's/.*path: *"//' | sed 's/".*//' | tr '\\' '/')"
+		if [ -n "$ext_path" ] && [ -d "$ext_path" ]; then
+			echo "$ext_path"
+			return
+		fi
+	fi
+	# Not found — return internal path (will be created)
+	echo "$PROJECTS_DIR/$project"
+}
+
 # ── Commands ───────────────────────────────────────────────────────────────────
+
+project_status() {
+	local dir="$1"
+	local status="no state"
+	if [ -f "$dir/.state/plan.md" ]; then
+		status="has plan"
+	fi
+	if [ -f "$dir/.state/tasks.jsonl" ] && [ -s "$dir/.state/tasks.jsonl" ]; then
+		local total done
+		total="$(wc -l < "$dir/.state/tasks.jsonl" | tr -d ' ')"
+		done="$(grep -c '"done"' "$dir/.state/tasks.jsonl" 2>/dev/null || echo 0)"
+		status="$done/$total tasks done"
+	fi
+	echo "$status"
+}
 
 cmd_list() {
 	echo "Managed Projects"
 	echo "════════════════"
-	if [ ! -d "$PROJECTS_DIR" ] || [ -z "$(ls -A "$PROJECTS_DIR" 2>/dev/null)" ]; then
-		echo "  (none)"
-		return
+	local found=0
+
+	# Internal projects
+	if [ -d "$PROJECTS_DIR" ] && [ -n "$(ls -A "$PROJECTS_DIR" 2>/dev/null)" ]; then
+		for dir in "$PROJECTS_DIR"/*/; do
+			local name
+			name="$(basename "$dir")"
+			echo "  $name ($(project_status "$dir"))"
+			found=1
+		done
 	fi
-	for dir in "$PROJECTS_DIR"/*/; do
-		local name
-		name="$(basename "$dir")"
-		local status="no state"
-		if [ -f "$dir/.state/plan.md" ]; then
-			status="has plan"
+
+	# External projects
+	if [ -f "$PROJECTS_YAML" ]; then
+		local ext_names
+		ext_names="$(grep -E "^  [a-z]" "$PROJECTS_YAML" | sed 's/:.*//' | tr -d ' ')"
+		if [ -n "$ext_names" ]; then
+			for name in $ext_names; do
+				local ext_path
+				ext_path="$(resolve_project_dir "$name")"
+				if [ -d "$ext_path" ]; then
+					local status
+					status="$(project_status "$ext_path")"
+					echo "  $name ($status) [external]"
+					found=1
+				fi
+			done
 		fi
-		if [ -f "$dir/.state/tasks.jsonl" ] && [ -s "$dir/.state/tasks.jsonl" ]; then
-			local total done
-			total="$(wc -l < "$dir/.state/tasks.jsonl" | tr -d ' ')"
-			done="$(grep -c '"done"' "$dir/.state/tasks.jsonl" 2>/dev/null || echo 0)"
-			status="$done/$total tasks done"
-		fi
-		echo "  $name ($status)"
-	done
+	fi
+
+	if [ "$found" -eq 0 ]; then
+		echo "  (none)"
+	fi
 }
 
 cmd_status() {
@@ -88,9 +138,10 @@ cmd_status() {
 cmd_project() {
 	local project="$1"
 	local instruction="${2:-}"
-	local project_dir="$PROJECTS_DIR/$project"
+	local project_dir
+	project_dir="$(resolve_project_dir "$project")"
 
-	# Auto-create from template if project doesn't exist
+	# Auto-create project or seed .state/ if missing
 	if [ ! -d "$project_dir" ]; then
 		echo "Creating new project: $project"
 		mkdir -p "$project_dir"
@@ -98,6 +149,12 @@ cmd_project() {
 		log_event "project-created" "$project"
 		echo "  Created at $project_dir"
 		echo "  Seeded .state/ from template"
+		echo ""
+	elif [ ! -d "$project_dir/.state" ]; then
+		echo "Seeding .state/ for existing project: $project"
+		cp -r "$TEMPLATES_DIR/.state" "$project_dir/.state"
+		log_event "state-seeded" "$project"
+		echo "  Seeded .state/ from template at $project_dir"
 		echo ""
 	fi
 

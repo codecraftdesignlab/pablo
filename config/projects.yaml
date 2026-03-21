@@ -1,0 +1,17 @@
+# Pablo — Managed Projects Registry
+# Maps project names to their directories.
+# Internal projects (under pablo/projects/) don't need listing here.
+# External projects live elsewhere in C:\ClaudeProjects\ and are registered below.
+
+external:
+  pixelshed:
+    path: "C:\\ClaudeProjects\\pixelshed"
+    description: "Stolen Goat internal platform"
+
+  marketing-tools:
+    path: "C:\\ClaudeProjects\\marketing-tools"
+    description: "SG marketing automation tools"
+
+  sg-data-diver-bot:
+    path: "C:\\ClaudeProjects\\sg-data-diver-bot"
+    description: "SG data analysis bot"
