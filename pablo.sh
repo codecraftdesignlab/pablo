@@ -14,6 +14,7 @@ TEMPLATES_DIR="$PABLO_DIR/templates/new-project"
 LOGS_DIR="$PABLO_DIR/logs"
 LOG_FILE="$LOGS_DIR/orchestration.jsonl"
 PROJECTS_YAML="$PABLO_DIR/config/projects.yaml"
+TEAMS_YAML="$PABLO_DIR/config/teams.yaml"
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
 
@@ -33,6 +34,19 @@ log_event() {
 	echo "{\"ts\":\"$ts\",\"event\":\"$event\",\"project\":\"$project\",\"detail\":\"$detail\"}" >> "$LOG_FILE"
 }
 
+get_project_team() {
+	local dir="$1"
+	if [ -f "$dir/.state/plan.md" ]; then
+		local team
+		team="$(grep -m1 '^## Team:' "$dir/.state/plan.md" 2>/dev/null | sed 's/## Team: *//' | tr -d ' ')"
+		if [ -n "$team" ]; then
+			echo "$team"
+			return
+		fi
+	fi
+	echo "build"
+}
+
 usage() {
 	echo "Pablo — AI Project Manager & Executive Assistant"
 	echo ""
@@ -40,6 +54,7 @@ usage() {
 	echo "  ./pablo.sh <project-name> \"instruction\"   Work on a project"
 	echo "  ./pablo.sh --status                        Cross-project summary"
 	echo "  ./pablo.sh --list                          List all projects"
+	echo "  ./pablo.sh --teams                         List available teams"
 	echo "  ./pablo.sh --help                          Show this help"
 	echo ""
 	echo "Projects live in: $PROJECTS_DIR"
@@ -92,7 +107,7 @@ cmd_list() {
 		for dir in "$PROJECTS_DIR"/*/; do
 			local name
 			name="$(basename "$dir")"
-			echo "  $name ($(project_status "$dir"))"
+			echo "  $name [$(get_project_team "$dir")] ($(project_status "$dir"))"
 			found=1
 		done
 	fi
@@ -108,7 +123,7 @@ cmd_list() {
 				if [ -d "$ext_path" ]; then
 					local status
 					status="$(project_status "$ext_path")"
-					echo "  $name ($status) [external]"
+					echo "  $name [$(get_project_team "$ext_path")] ($status) [external]"
 					found=1
 				fi
 			done
@@ -202,6 +217,37 @@ cmd_status() {
 	fi
 }
 
+cmd_teams() {
+	echo "Available Teams"
+	echo "═══════════════"
+	if [ -f "$TEAMS_YAML" ]; then
+		local current_team=""
+		while IFS= read -r line; do
+			if echo "$line" | grep -qE "^  [a-z].*:$"; then
+				current_team="$(echo "$line" | sed 's/:.*//' | tr -d ' ')"
+			fi
+			if echo "$line" | grep -q "description:"; then
+				local desc
+				desc="$(echo "$line" | sed 's/.*description: *"//' | sed 's/".*//')"
+				echo ""
+				echo "  $current_team — $desc"
+			fi
+			if echo "$line" | grep -q "team-agents:"; then
+				local agents
+				agents="$(echo "$line" | sed 's/.*team-agents: *//')"
+				echo "    team: $agents"
+			fi
+			if echo "$line" | grep -q "shared-agents:"; then
+				local agents
+				agents="$(echo "$line" | sed 's/.*shared-agents: *//')"
+				echo "    shared: $agents"
+			fi
+		done < "$TEAMS_YAML"
+	else
+		echo "  No teams.yaml found at $TEAMS_YAML"
+	fi
+}
+
 cmd_project() {
 	local project="$1"
 	local instruction="${2:-}"
@@ -236,16 +282,19 @@ cmd_project() {
 	local system_context="You are Pablo in ORCHESTRATOR MODE for project '$project'.
 Project directory: $project_dir
 State directory: $project_dir/.state
+Teams config: $TEAMS_YAML
+Agents directory: $PABLO_DIR/agents/
 
 Read the project state files before acting:
-- .state/plan.md — project goals and scope
+- .state/plan.md — project goals, scope, and team assignment
 - .state/tasks.jsonl — task backlog
 - .state/decisions.md — decision log
 - .state/handoff.md — last agent output
 $state_summary
 
-Refer to skills/orchestrator/ for delegation, escalation, and state management rules.
-Refer to agents/ for agent identities and instructions."
+Read config/teams.yaml to understand available teams and agents.
+Resolve agent paths: team agents at agents/<team>/<agent>/CLAUDE.md, shared agents at agents/shared/<agent>/CLAUDE.md.
+Refer to skills/orchestrator/ for delegation, escalation, state management, and vault sync rules."
 
 	if [ -n "$instruction" ]; then
 		# Non-interactive: run with -p
@@ -279,6 +328,9 @@ case "$1" in
 		;;
 	--status|-s)
 		cmd_status
+		;;
+	--teams|-t)
+		cmd_teams
 		;;
 	--*)
 		echo "Unknown option: $1"
