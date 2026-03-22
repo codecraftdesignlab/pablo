@@ -1,0 +1,18 @@
+teams:
+  build:
+    description: "Software projects — planning, coding, reviewing"
+    team-agents: planner, builder
+    shared-agents: researcher, reviewer, designer
+    keywords: build, code, implement, feature, app, tool, script, api, website
+
+  marketing:
+    description: "Campaigns, content, positioning, brand"
+    team-agents: strategist, copywriter
+    shared-agents: researcher, reviewer, designer
+    keywords: marketing, campaign, content, social, brand, launch, copy, email campaign, SEO
+
+  analysis:
+    description: "Business analysis, market research, reporting"
+    team-agents: analyst, report-writer
+    shared-agents: researcher, reviewer, designer
+    keywords: analyse, report, metrics, data, research, market, competitors, benchmark
