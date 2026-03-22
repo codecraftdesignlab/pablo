@@ -18,6 +18,12 @@ PROJECTS_YAML="$PABLO_DIR/config/projects.yaml"
 # ── Helpers ────────────────────────────────────────────────────────────────────
 
 log_event() {
+	# Events logged by pablo.sh: session-start, session-end, project-created, state-seeded
+	# Events logged by Pablo (orchestrator) during sessions:
+	#   agent-invoked (detail: "<agent> TASK-NNN")
+	#   agent-completed (detail: "<agent> TASK-NNN [verdict]")
+	#   escalation (detail: "<level>: <summary>")
+	#   budget-upgrade (detail: "<old-tier> -> <new-tier>")
 	local event="$1"
 	local project="${2:-}"
 	local detail="${3:-}"
@@ -120,15 +126,76 @@ cmd_status() {
 	echo ""
 	cmd_list
 	echo ""
+
+	# Show blocked tasks across all projects
+	echo "Blocked Tasks"
+	echo "─────────────"
+	local found_blocked=0
+	for dir in "$PROJECTS_DIR"/*/; do
+		if [ -f "$dir/.state/tasks.jsonl" ] && [ -s "$dir/.state/tasks.jsonl" ]; then
+			local name
+			name="$(basename "$dir")"
+			local blocked
+			blocked="$(grep '"blocked"' "$dir/.state/tasks.jsonl" 2>/dev/null || true)"
+			if [ -n "$blocked" ]; then
+				echo "  $name:"
+				echo "$blocked" | while IFS= read -r line; do
+					local title
+					title="$(echo "$line" | grep -o '"title":"[^"]*"' | cut -d'"' -f4)"
+					local id
+					id="$(echo "$line" | grep -o '"id":"[^"]*"' | cut -d'"' -f4)"
+					echo "    $id: $title"
+				done
+				found_blocked=1
+			fi
+		fi
+	done
+	# Check external projects too
+	if [ -f "$PROJECTS_YAML" ]; then
+		local ext_names
+		ext_names="$(grep -E "^  [a-z]" "$PROJECTS_YAML" | sed 's/:.*//' | tr -d ' ')"
+		if [ -n "$ext_names" ]; then
+			for name in $ext_names; do
+				local ext_path
+				ext_path="$(resolve_project_dir "$name")"
+				if [ -f "$ext_path/.state/tasks.jsonl" ] && [ -s "$ext_path/.state/tasks.jsonl" ]; then
+					local blocked
+					blocked="$(grep '"blocked"' "$ext_path/.state/tasks.jsonl" 2>/dev/null || true)"
+					if [ -n "$blocked" ]; then
+						echo "  $name [external]:"
+						echo "$blocked" | while IFS= read -r line; do
+							local title
+							title="$(echo "$line" | grep -o '"title":"[^"]*"' | cut -d'"' -f4)"
+							local id
+							id="$(echo "$line" | grep -o '"id":"[^"]*"' | cut -d'"' -f4)"
+							echo "    $id: $title"
+						done
+						found_blocked=1
+					fi
+				fi
+			done
+		fi
+	fi
+	if [ "$found_blocked" -eq 0 ]; then
+		echo "  (none)"
+	fi
+	echo ""
+
+	# Recent activity
 	if [ -f "$LOG_FILE" ]; then
-		echo "Recent Activity (last 5)"
-		echo "────────────────────────"
-		tail -5 "$LOG_FILE" | while IFS= read -r line; do
-			local ts project event
+		echo "Recent Activity (last 10)"
+		echo "─────────────────────────"
+		tail -10 "$LOG_FILE" | while IFS= read -r line; do
+			local ts project event detail
 			ts="$(echo "$line" | grep -o '"ts":"[^"]*"' | cut -d'"' -f4)"
 			project="$(echo "$line" | grep -o '"project":"[^"]*"' | cut -d'"' -f4)"
 			event="$(echo "$line" | grep -o '"event":"[^"]*"' | cut -d'"' -f4)"
-			echo "  $ts  $event  $project"
+			detail="$(echo "$line" | grep -o '"detail":"[^"]*"' | cut -d'"' -f4)"
+			if [ -n "$detail" ]; then
+				echo "  $ts  $event  $project  ($detail)"
+			else
+				echo "  $ts  $event  $project"
+			fi
 		done
 	else
 		echo "No activity log yet."

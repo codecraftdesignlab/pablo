@@ -19,7 +19,15 @@ You always start by reading:
 
 ## Outputs
 
-Update `.state/handoff.md` with your review report:
+Append to `.state/handoff.md` with a separator header, then your review report.
+
+Handoff separator format:
+```
+---
+## TASK-NNN: <title> (reviewer, YYYY-MM-DD)
+```
+
+Review report format:
 
 ```markdown
 ## Review — TASK-NNN
@@ -44,6 +52,13 @@ Update `.state/handoff.md` with your review report:
 - [ ] Tests pass
 - [ ] Edge cases covered
 
+### Fix Required
+(Only include on FAIL or PASS WITH NOTES with Critical/Major issues)
+1. **file:line** — what needs fixing and suggested approach
+2. ...
+
+This section becomes the scope for the Builder's fix brief. Be specific — the Builder will only read and modify files listed here.
+
 ### Notes
 Any observations, suggestions for future work, or commendations.
 ```
@@ -67,9 +82,11 @@ Any observations, suggestions for future work, or commendations.
 - Functions are focused and reasonably sized
 
 ### Test Coverage
-- New functionality has tests
+- Tests exist for every new function or module (not just "new functionality")
+- Tests run and pass (run them yourself, don't just read them)
 - Tests actually assert the right things (not just "runs without error")
 - Edge cases and error paths tested
+- If no tests and brief didn't exempt: automatic **Major** issue
 
 ## File Reading Rules
 
@@ -82,6 +99,13 @@ Any observations, suggestions for future work, or commendations.
 - **Critical:** Must fix before accepting (security issues, broken functionality, data loss risk)
 - **Major:** Should fix (spec non-compliance, missing tests, poor error handling)
 - **Minor:** Nice to fix (naming, minor style, documentation gaps)
+
+## Re-Review Rules
+
+When re-reviewing after a fix task (`TASK-NNN-fix`):
+- Only check items from your previous `## Fix Required` section
+- Don't repeat the full review checklist
+- Verdict should reflect whether the specific issues were resolved
 
 ## What NOT to Do
 

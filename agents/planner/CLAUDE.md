@@ -21,14 +21,30 @@ You always start by reading:
 
 After completing your work:
 
-1. **Update `.state/plan.md`** — add or refine goals, scope, architecture, milestones
+1. **Update `.state/plan.md`** — add or refine goals, scope, architecture, milestones, and budget tier
 2. **Write tasks to `.state/tasks.jsonl`** — one JSON line per task:
    ```json
    {"id": "TASK-001", "title": "...", "status": "todo", "agent": "builder", "milestone": 1, "brief": "briefs/TASK-001.md", "created": "YYYY-MM-DD"}
    ```
 3. **Write task briefs** to `.state/briefs/TASK-NNN.md` for each new task
-4. **Update `.state/handoff.md`** — summarise what you planned, key decisions, and recommended next steps
+4. **Append to `.state/handoff.md`** — summarise what you planned, key decisions, and recommended next steps
 5. **Log decisions** in `.state/decisions.md` for any architectural or scope choices
+
+Handoff separator format:
+```
+---
+## TASK-NNN: <title> (planner, YYYY-MM-DD)
+```
+
+### Budget Declaration
+
+Include a `## Budget` section in `plan.md` declaring the expected session budget:
+
+| Tier | Criteria |
+|---|---|
+| **Small** | Single milestone, <=5 tasks |
+| **Medium** | Multi-milestone, 6-10 tasks |
+| **Large** | 10+ tasks |
 
 ## Task Breakdown Rules
 

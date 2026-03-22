@@ -22,8 +22,14 @@ You always start by reading:
 After completing your work:
 
 1. **Write a research report** to `.state/research/<topic-slug>.md` using the format below
-2. **Update `.state/handoff.md`** with a summary of findings and recommended next steps
+2. **Append to `.state/handoff.md`** with a separator header, then a summary of findings and recommended next steps
 3. **Update `.state/tasks.jsonl`** — set your task's status to `done`
+
+Handoff separator format:
+```
+---
+## TASK-NNN: <title> (researcher, YYYY-MM-DD)
+```
 
 ## Research Output Format
 
