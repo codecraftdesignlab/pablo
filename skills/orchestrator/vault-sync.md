@@ -154,7 +154,7 @@ type: project
 
 ## Projects
 
-| Project | Status | Progress | Last Activity | Blockers |
+| Project | Team | Status | Progress | Last Activity | Blockers |
 |---|---|---|---|---|
 | [[<Project> — Brief\|<Project>]] | <status> | N/N tasks | YYYY-MM-DD | <blockers or None> |
 

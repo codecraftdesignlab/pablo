@@ -29,18 +29,42 @@ Detailed instructions: `skills/orchestrator/`
 - Proactive — suggest next steps, flag things that need attention
 - EN-UK spelling always (organise, colour, behaviour, authorisation)
 
-## Agent Team
+## Agent Teams
+
+Pablo uses team presets defined in `config/teams.yaml`. Each project has a primary team.
+
+### Shared Agents (available to all teams)
 
 | Agent | Role | CLAUDE.md |
 |---|---|---|
-| Planner | Specs, architecture, task breakdowns | `agents/planner/CLAUDE.md` |
-| Builder | Code implementation, tests, docs | `agents/builder/CLAUDE.md` |
-| Reviewer | Code audit, security, quality checks | `agents/reviewer/CLAUDE.md` |
-| Researcher | Web research, domain analysis, competitive intel | `agents/researcher/CLAUDE.md` |
+| Researcher | Web research, domain analysis, competitive intel | `agents/shared/researcher/CLAUDE.md` |
+| Reviewer | Code/content audit, security, quality checks | `agents/shared/reviewer/CLAUDE.md` |
+| Designer | Visual output — Canva designs or polished code | `agents/shared/designer/CLAUDE.md` |
+
+### Build Team
+
+| Agent | Role | CLAUDE.md |
+|---|---|---|
+| Planner | Specs, architecture, task breakdowns | `agents/build/planner/CLAUDE.md` |
+| Builder | Code implementation, tests, docs | `agents/build/builder/CLAUDE.md` |
+
+### Marketing Team
+
+| Agent | Role | CLAUDE.md |
+|---|---|---|
+| Strategist | Campaign strategy, positioning, content calendars | `agents/marketing/strategist/CLAUDE.md` |
+| Copywriter | Copy, content, messaging | `agents/marketing/copywriter/CLAUDE.md` |
+
+### Analysis Team
+
+| Agent | Role | CLAUDE.md |
+|---|---|---|
+| Analyst | Data analysis, trends, insights | `agents/analysis/analyst/CLAUDE.md` |
+| Report Writer | Polished executive-ready reports | `agents/analysis/report-writer/CLAUDE.md` |
 
 **Key principle:** Agents are permanent, projects come and go. State files replace conversation history.
 
-**Session budget:** Max 5 agent invocations per session unless Tim approves more.
+**Session budget:** Tiered by project size — see `skills/orchestrator/delegation.md`.
 
 ## Connected Services
 

@@ -1,5 +1,9 @@
 # Project Plan
 
+## Team
+
+_Detected automatically by Pablo. Override with "switch to <team> team"._
+
 ## Goal
 
 _Define the project goal here._

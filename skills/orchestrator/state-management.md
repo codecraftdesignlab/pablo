@@ -23,6 +23,7 @@ State files replace conversation history. Every agent session starts fresh — t
 
 ### plan.md
 The project's north star. Contains:
+- **Team:** Which agent team this project uses (build/marketing/analysis)
 - **Goal:** What the project achieves
 - **Scope:** What's in and out
 - **Architecture:** Key design decisions and structure

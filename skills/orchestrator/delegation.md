@@ -6,7 +6,7 @@ Pablo invokes agents as sub-processes using Claude Code's `-p` flag with an appe
 
 ```bash
 cd <project-dir>
-claude -p --append-system-prompt "$(cat /c/ClaudeProjects/pablo/agents/<agent>/CLAUDE.md)" \
+claude -p --append-system-prompt "$(cat /c/ClaudeProjects/pablo/agents/<team|shared>/<agent>/CLAUDE.md)" \
   "Read your task brief at .state/briefs/TASK-NNN.md and execute it. Append your output to .state/handoff.md and update .state/tasks.jsonl when done."
 ```
 
@@ -66,6 +66,20 @@ After completing a task, agents must:
 7. Logs `agent-completed` event (verdict if reviewer)
 8. Syncs to Obsidian vault (see vault-sync.md)
 9. Decides next action: another agent, fix loop, escalate to Tim, or done
+
+## Team Detection
+
+On first session for a new project:
+1. Read `config/teams.yaml` for available teams and keywords
+2. Count keyword matches from the instruction against each team
+3. If top two teams are within 1 match of each other, ask Tim to confirm
+4. Record the team in `.state/plan.md` as `## Team: <team-name>`
+
+On subsequent sessions, read team from plan.md. Tim can override at any time.
+
+## Borrowing Agents
+
+Pablo can invoke agents from other teams when the brief requires it. Resolve the borrowed agent's path via `teams.yaml` — use the agent's home team folder, not the project's team folder.
 
 ## Review Fix Loop
 
