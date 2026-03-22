@@ -14,9 +14,10 @@ C:\Users\timbl\stolen goat Dropbox\tim bland\Obsidian\projects\<project-name>\
 |---|---|
 | Project creation | Create vault folder, write `brief.md` |
 | After Planner completes | Sync `plan.md` to vault |
-| After any agent completes | Append to `activity-log.md` |
+| Before invoking an agent | Update dashboard: show agent + task as active |
+| After any agent completes | Append to `activity-log.md`, update dashboard progress |
 | After decisions are logged | Sync `decisions.md` to vault |
-| End of session | Update `project-dashboard.md` |
+| End of session | Update dashboard: clear active task, final status |
 
 ## Vault Folder Structure
 
@@ -143,6 +144,16 @@ type: project
 
 *Last updated: YYYY-MM-DD HH:MM by Pablo*
 
+## Currently Active
+
+**Project:** <project-name>
+**Agent:** <Agent> — TASK-NNN: <task title>
+**Started:** HH:MM
+
+> This section is cleared when no agent is running.
+
+## Projects
+
 | Project | Status | Progress | Last Activity | Blockers |
 |---|---|---|---|---|
 | [[<Project> — Brief\|<Project>]] | <status> | N/N tasks | YYYY-MM-DD | <blockers or None> |
@@ -156,11 +167,17 @@ type: project
 
 ### When to Update
 
-- At the end of every orchestrator session
-- During `/morning` briefing (read and report)
-- When `./pablo.sh --status` is run
+The dashboard is a **live view** — update it frequently so Tim can watch progress in Obsidian.
 
-To update: read all vault project folders, check `.state/tasks.jsonl` for each project, and regenerate the dashboard table.
+| Moment | What to update |
+|---|---|
+| Before invoking an agent | Set "Currently Active" to the agent, task, and start time |
+| After agent completes | Clear "Currently Active", update project progress in the table, append verdict if reviewer |
+| End of session | Clear "Currently Active", set final status and progress |
+| During `/morning` briefing | Read and report current state |
+| When `./pablo.sh --status` is run | Regenerate full dashboard |
+
+To update: read `.state/tasks.jsonl` for the active project, count done/total, and rewrite the dashboard. Obsidian live-reloads on file change, so updates appear in near-real-time.
 
 ## Rules
 
