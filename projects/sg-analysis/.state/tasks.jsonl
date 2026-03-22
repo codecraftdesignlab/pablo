@@ -1,0 +1,8 @@
+{"id": "TASK-001", "title": "Research: tech stack and architecture for report generation tool", "status": "done", "agent": "planner", "milestone": 1, "brief": "briefs/TASK-001.md", "created": "2026-03-22"}
+{"id": "TASK-002", "title": "Milestone 1: Foundation & Data Layer — scaffolding, loader, sections, season performance, markdown output", "status": "done", "agent": "builder", "milestone": 1, "brief": "briefs/TASK-002.md", "created": "2026-03-22", "completed": "2026-03-22"}
+{"id": "TASK-003", "title": "Milestone 2: Stock-focused sections (reorder alerts, stock health, velocity)", "status": "done", "agent": "builder", "milestone": 2, "created": "2026-03-22", "completed": "2026-03-22"}
+{"id": "TASK-004", "title": "Milestone 2: Business analytics sections (gender, channel, CK projects, YoY)", "status": "done", "agent": "builder", "milestone": 2, "created": "2026-03-22", "completed": "2026-03-22"}
+{"id": "TASK-005", "title": "Milestone 2: Cross-sell analysis section", "status": "done", "agent": "builder", "milestone": 2, "created": "2026-03-22", "completed": "2026-03-22"}
+{"id": "TASK-006", "title": "Milestone 4: HTML output + email delivery", "status": "done", "agent": "builder", "milestone": 4, "created": "2026-03-22", "completed": "2026-03-22"}
+{"id": "TASK-007", "title": "Code review and bug fixes", "status": "done", "agent": "reviewer", "milestone": 4, "created": "2026-03-22", "completed": "2026-03-22"}
+{"id": "TASK-008", "title": "Post-review fixes: hardcoded year, order status exclusions", "status": "done", "agent": "pablo", "milestone": 4, "created": "2026-03-22", "completed": "2026-03-22"}

@@ -14,4 +14,8 @@ external:
 
   sg-data-diver-bot:
     path: "C:\\ClaudeProjects\\sg-data-diver-bot"
-    description: "SG data analysis bot"
+    description: "SG data analysis bot (Discord/Slack wrapper)"
+
+  data-diver:
+    path: "C:\\Users\\timbl\\stolen goat Dropbox\\tim bland\\Stolen Goat\\Multichannel Manager\\Tools\\data-diver"
+    description: "DataDiver CLI — .NET 8 tool that translates natural language to SQL against SG business data"
