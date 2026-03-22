@@ -31,6 +31,24 @@ agents/
     report-writer/CLAUDE.md      # NEW — polished executive-ready reports
 ```
 
+### Canonical Agent Names
+
+These are the `"agent"` values used in `tasks.jsonl` and for folder resolution:
+
+| Agent | Canonical name | Path |
+|---|---|---|
+| Planner | `planner` | `agents/build/planner/CLAUDE.md` |
+| Builder | `builder` | `agents/build/builder/CLAUDE.md` |
+| Researcher | `researcher` | `agents/shared/researcher/CLAUDE.md` |
+| Reviewer | `reviewer` | `agents/shared/reviewer/CLAUDE.md` |
+| Designer | `designer` | `agents/shared/designer/CLAUDE.md` |
+| Strategist | `strategist` | `agents/marketing/strategist/CLAUDE.md` |
+| Copywriter | `copywriter` | `agents/marketing/copywriter/CLAUDE.md` |
+| Analyst | `analyst` | `agents/analysis/analyst/CLAUDE.md` |
+| Report Writer | `report-writer` | `agents/analysis/report-writer/CLAUDE.md` |
+
+Pablo resolves agent names to paths using `config/teams.yaml`. The `tasks.jsonl` `"agent"` field uses the short canonical name (e.g., `"agent": "copywriter"`). Pablo looks up the agent's team membership in `teams.yaml` to determine the full path.
+
 ### Shared Agents
 
 Available to every team without borrowing:
@@ -70,6 +88,7 @@ Dual-mode agent controlled by the task brief:
 - Works with existing brand kits (via `list-brand-kits`)
 - Can search, create from templates, or generate new designs
 - Output: Canva design URL + export
+- **Dependency:** Requires Canva MCP to be configured and active. If Canva MCP is unavailable, Pablo should flag this to Tim and skip Canva tasks or suggest code mode as a fallback.
 
 ### Code Mode (`## Design Mode: code`)
 - Writes visually polished frontend code
@@ -87,94 +106,83 @@ Dual-mode agent controlled by the task brief:
 
 ### config/teams.yaml
 
+The YAML structure is kept flat enough for shell parsing with `grep`/`sed`. Each team has a simple key-value format with comma-separated agent lists.
+
 ```yaml
 teams:
   build:
     description: "Software projects — planning, coding, reviewing"
-    agents:
-      team:
-        - planner
-        - builder
-      shared:
-        - researcher
-        - reviewer
-        - designer
-    keywords:
-      - build
-      - code
-      - implement
-      - feature
-      - app
-      - tool
-      - script
-      - api
-      - website
+    team-agents: planner, builder
+    shared-agents: researcher, reviewer, designer
+    keywords: build, code, implement, feature, app, tool, script, api, website
 
   marketing:
     description: "Campaigns, content, positioning, brand"
-    agents:
-      team:
-        - strategist
-        - copywriter
-      shared:
-        - researcher
-        - reviewer
-        - designer
-    keywords:
-      - marketing
-      - campaign
-      - content
-      - social
-      - brand
-      - launch
-      - copy
-      - email campaign
-      - SEO
+    team-agents: strategist, copywriter
+    shared-agents: researcher, reviewer, designer
+    keywords: marketing, campaign, content, social, brand, launch, copy, email campaign, SEO
 
   analysis:
     description: "Business analysis, market research, reporting"
-    agents:
-      team:
-        - analyst
-        - report-writer
-      shared:
-        - researcher
-        - reviewer
-        - designer
-    keywords:
-      - analyse
-      - report
-      - metrics
-      - data
-      - research
-      - market
-      - competitors
-      - benchmark
+    team-agents: analyst, report-writer
+    shared-agents: researcher, reviewer, designer
+    keywords: analyse, report, metrics, data, research, market, competitors, benchmark
 ```
+
+Note: `team-agents` and `shared-agents` are comma-separated strings (not YAML lists) for easy shell parsing.
 
 ## Team Detection and Selection
 
 ### Auto-detection
-On first session, Pablo matches the instruction against keywords in `config/teams.yaml`. If a clear match is found, Pablo announces the team and proceeds. If ambiguous, Pablo asks Tim.
+On first session (including external projects), Pablo matches the instruction against keywords in `config/teams.yaml`. Detection uses keyword counting: count matches per team, and if the top two teams are within 1 match of each other, ask Tim to confirm. Otherwise, announce the detected team and proceed.
 
 ### Recording
-The detected team is stored in `.state/plan.md`:
+The detected team is stored in `.state/plan.md` immediately after the title, before `## Goal`:
+
 ```markdown
+# Project: [Name]
+
 ## Team: marketing
+
+## Goal
+...
 ```
 
 ### Subsequent sessions
 Pablo reads the team from plan.md instead of re-detecting. Tim can override at any time ("switch to the build team").
 
+### Team changes mid-project
+When Tim switches teams, Pablo updates `## Team` in plan.md. Existing tasks in `tasks.jsonl` that reference agents from the old team are left as-is — they can still be executed via the borrowing mechanism. No tasks are reassigned or marked blocked automatically.
+
 ### Borrowing agents
-Pablo can pull individual agents from other teams when the brief requires it. This is a delegation decision — Pablo includes the borrowed agent's full path in the invocation. No config change needed.
+Pablo can pull individual agents from other teams when the brief requires it. This is a delegation decision — Pablo resolves the borrowed agent's path via `teams.yaml` and includes it in the invocation. No config change needed.
 
 ## Integration Changes
 
 ### pablo.sh
-- `cmd_project` system context: inject detected team and available agents with paths
-- `cmd_list`: show team per project
-- New `--teams` flag: list available teams and their agents
+
+**Agent path resolution:** Pablo (the orchestrator, running inside Claude) resolves agent paths — not `pablo.sh`. The shell script injects the `teams.yaml` path and the agents directory into Pablo's system context. Pablo reads `teams.yaml`, determines the team (from plan.md or auto-detection), and builds the correct agent path for each invocation.
+
+**`cmd_project` system context additions:**
+```
+Teams config: /c/ClaudeProjects/pablo/config/teams.yaml
+Agents directory: /c/ClaudeProjects/pablo/agents/
+```
+
+**`cmd_list`:** show team per project (read from `.state/plan.md`, default "build" if absent).
+
+**`--teams` flag:** Parse `config/teams.yaml` using `grep`/`sed` (the flat YAML format supports this) and display:
+```
+Teams:
+  build — Software projects — planning, coding, reviewing
+    team: planner, builder
+    shared: researcher, reviewer, designer
+
+  marketing — Campaigns, content, positioning, brand
+    team: strategist, copywriter
+    shared: researcher, reviewer, designer
+  ...
+```
 
 ### Invocation pattern update
 ```bash
@@ -183,10 +191,16 @@ claude -p --append-system-prompt "$(cat /c/ClaudeProjects/pablo/agents/<team|sha
   "Read your task brief at .state/briefs/TASK-NNN.md and execute it. Append your output to .state/handoff.md and update .state/tasks.jsonl when done."
 ```
 
+Pablo resolves `<team|shared>` by looking up the agent name in `teams.yaml`: if the agent is in the project's `team-agents`, use the team folder; if in `shared-agents`, use `shared/`.
+
 ### skills/orchestrator/delegation.md
 - Update invocation pattern to use team-aware paths
 - Add team detection logic documentation
 - Update the agent team table
+- Document borrowing mechanism
+
+### skills/orchestrator/state-management.md
+- Add `## Team` to the plan.md format documentation (after title, before Goal)
 
 ### Root CLAUDE.md
 - Update Agent Team table to show teams and shared agents
@@ -198,6 +212,7 @@ claude -p --append-system-prompt "$(cat /c/ClaudeProjects/pablo/agents/<team|sha
 ### Backward compatibility
 - Existing projects with no `## Team:` in plan.md default to `build`
 - All three completed projects continue to work unchanged
+- Team detection runs on first session for all new projects (internal and external)
 
 ## Files to Create
 
@@ -224,9 +239,11 @@ claude -p --append-system-prompt "$(cat /c/ClaudeProjects/pablo/agents/<team|sha
 | File | Changes |
 |---|---|
 | `pablo.sh` | Team-aware context, --teams flag, team in project list |
-| `skills/orchestrator/delegation.md` | Team-aware paths, detection logic |
+| `skills/orchestrator/delegation.md` | Team-aware paths, detection logic, borrowing docs |
+| `skills/orchestrator/state-management.md` | Add `## Team` to plan.md format |
 | `CLAUDE.md` | Updated agent team table with teams |
 | `skills/orchestrator/vault-sync.md` | Team column in dashboard |
+| `templates/new-project/.state/plan.md` | Add `## Team` placeholder |
 
 ## Verification
 
@@ -234,5 +251,7 @@ claude -p --append-system-prompt "$(cat /c/ClaudeProjects/pablo/agents/<team|sha
 2. Run `./pablo.sh --list` — existing projects show "build" team
 3. Start a new marketing project — Pablo should auto-detect and confirm
 4. Verify existing build projects still work with moved agent paths
-5. Test Designer agent in both Canva and code modes
+5. Test Designer agent in both Canva and code modes (code mode first; Canva mode requires MCP)
 6. Test borrowing: use Copywriter from a build project
+7. Test keyword collision: instruction matching multiple teams should prompt Tim
+8. Verify template plan.md includes `## Team` placeholder
