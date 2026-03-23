@@ -51,6 +51,18 @@ google_analytics:
     - https://www.googleapis.com/auth/analytics.readonly
   notes: "Direct service account auth (no impersonation). Main = stolengoat.com D2C, CK = custom kit webshops."
 
+google_search_console:
+  status: active
+  access: google-api
+  credentials: google-service-account-key.json
+  service_account: "pablo-766@pablo-490815.iam.gserviceaccount.com"
+  sites:
+    - "https://stolengoat.com/"
+    - "sc-domain:chessfolio.io"
+  scopes:
+    - https://www.googleapis.com/auth/webmasters.readonly
+  notes: "Direct service account auth. SEO data: search queries, impressions, clicks, position."
+
 web_search:
   status: active
   access: native-tools
