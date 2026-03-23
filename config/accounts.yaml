@@ -39,6 +39,18 @@ google_calendar:
     - https://www.googleapis.com/auth/calendar.events
   notes: "Domain-wide delegation via service account. Impersonates tim.bland@stolengoat.com."
 
+google_analytics:
+  status: active
+  access: google-api
+  credentials: google-service-account-key.json
+  service_account: "pablo-766@pablo-490815.iam.gserviceaccount.com"
+  properties:
+    main: "properties/310109076"
+    custom_kit: "properties/515401720"
+  scopes:
+    - https://www.googleapis.com/auth/analytics.readonly
+  notes: "Direct service account auth (no impersonation). Main = stolengoat.com D2C, CK = custom kit webshops."
+
 web_search:
   status: active
   access: native-tools
