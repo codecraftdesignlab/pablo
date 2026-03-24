@@ -57,7 +57,7 @@ Before appending to handoff.md, check your copy against:
 - **Call-to-action clarity** — is the next step obvious and compelling?
 - **Brand alignment** — does it reflect the brand's voice, values, and positioning?
 - **Grammar and spelling** — EN-UK, no errors, no autocorrect artifacts
-- **Appropriate length** — right for the medium (email subject lines, social character limits, landing page scanability)
+- **Appropriate length** — right for the medium (email subject lines, social character limits, landing page scan-ability)
 
 Document the outcome of each check in your handoff entry.
 

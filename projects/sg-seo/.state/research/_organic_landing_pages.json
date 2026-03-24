@@ -1,0 +1,142 @@
+[
+  {
+    "page": "/",
+    "sessions": 2599,
+    "users": 2115,
+    "purchases": 35,
+    "revenue": 2233.0899999999997
+  },
+  {
+    "page": "/2026/01/best-cycling-events-2026/",
+    "sessions": 1497,
+    "users": 1352,
+    "purchases": 0,
+    "revenue": 0.0
+  },
+  {
+    "page": "/product-category/mens/jerseys-tops/",
+    "sessions": 554,
+    "users": 524,
+    "purchases": 5,
+    "revenue": 363.45
+  },
+  {
+    "page": "(not set)",
+    "sessions": 523,
+    "users": 483,
+    "purchases": 0,
+    "revenue": 0.0
+  },
+  {
+    "page": "/product-category/mens/",
+    "sessions": 288,
+    "users": 272,
+    "purchases": 3,
+    "revenue": 157.9
+  },
+  {
+    "page": "/product-category/accessories/body/socks/",
+    "sessions": 277,
+    "users": 257,
+    "purchases": 4,
+    "revenue": 119.59
+  },
+  {
+    "page": "/product-category/womens/",
+    "sessions": 205,
+    "users": 188,
+    "purchases": 6,
+    "revenue": 391.2
+  },
+  {
+    "page": "/product-category/mens/jerseys-tops/long-sleeve-cycling-jerseys/",
+    "sessions": 183,
+    "users": 160,
+    "purchases": 1,
+    "revenue": 104.56
+  },
+  {
+    "page": "/2020/02/what-is-thermolite/",
+    "sessions": 179,
+    "users": 165,
+    "purchases": 0,
+    "revenue": 0.0
+  },
+  {
+    "page": "/product/stolen-goat-unisex-climb-and-conquer-4-seasons-full-length-cycling-gloves/",
+    "sessions": 178,
+    "users": 99,
+    "purchases": 13,
+    "revenue": 555.0
+  },
+  {
+    "page": "/cycling-uk/",
+    "sessions": 145,
+    "users": 142,
+    "purchases": 2,
+    "revenue": 184.5
+  },
+  {
+    "page": "/product-category/mens/jackets-gilets/cycling-gilets/",
+    "sessions": 143,
+    "users": 133,
+    "purchases": 0,
+    "revenue": 0.0
+  },
+  {
+    "page": "/product-category/mens/racing-suits/triathlon-suits/",
+    "sessions": 133,
+    "users": 126,
+    "purchases": 1,
+    "revenue": 144.5
+  },
+  {
+    "page": "/product-category/accessories/body/cycling-gloves/",
+    "sessions": 120,
+    "users": 110,
+    "purchases": 4,
+    "revenue": 158.35000000000002
+  },
+  {
+    "page": "/product-category/mens/jerseys-tops/short-sleeve-cycling-jerseys/",
+    "sessions": 114,
+    "users": 101,
+    "purchases": 1,
+    "revenue": 75.0
+  },
+  {
+    "page": "/2026/01/chase-the-sun-cycling-event-routes-training-tips/",
+    "sessions": 112,
+    "users": 105,
+    "purchases": 0,
+    "revenue": 0.0
+  },
+  {
+    "page": "/product-category/womens/womens-jackets-gilets/womens-gilets/",
+    "sessions": 100,
+    "users": 89,
+    "purchases": 0,
+    "revenue": 0.0
+  },
+  {
+    "page": "/product-category/womens/womens-jerseys-tops/womens-cycling-jerseys/womens-long-sleeve-jerseys/",
+    "sessions": 96,
+    "users": 91,
+    "purchases": 0,
+    "revenue": 0.0
+  },
+  {
+    "page": "/product-category/accessories/body/cycling-arm-warmers/",
+    "sessions": 95,
+    "users": 80,
+    "purchases": 2,
+    "revenue": 67.45
+  },
+  {
+    "page": "/cart/",
+    "sessions": 88,
+    "users": 63,
+    "purchases": 3,
+    "revenue": 310.45
+  }
+]

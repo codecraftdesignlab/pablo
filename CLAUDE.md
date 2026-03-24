@@ -40,6 +40,7 @@ Pablo uses team presets defined in `config/teams.yaml`. Each project has a prima
 | Researcher | Web research, domain analysis, competitive intel | `agents/shared/researcher/CLAUDE.md` |
 | Reviewer | Code/content audit, security, quality checks | `agents/shared/reviewer/CLAUDE.md` |
 | Designer | Visual output — Canva designs or polished code | `agents/shared/designer/CLAUDE.md` |
+| QA Tester | Browser-based testing via Playwright (headless) | `agents/shared/qa-tester/CLAUDE.md` |
 
 ### Build Team
 

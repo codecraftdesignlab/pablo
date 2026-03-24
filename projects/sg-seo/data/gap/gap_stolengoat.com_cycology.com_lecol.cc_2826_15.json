@@ -1,0 +1,205 @@
+{
+  "our_domain": "stolengoat.com",
+  "competitors": [
+    "lecol.cc",
+    "cycology.com"
+  ],
+  "gap_keywords": [
+    {
+      "keyword": "col u",
+      "search_volume": 74000,
+      "competition": 0.009999999776482582,
+      "cpc": 0.8299999833106995,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 36,
+          "url": "https://lecol.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "lcc london",
+      "search_volume": 22200,
+      "competition": 0.029999999329447746,
+      "cpc": 2.3899998664855957,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 86,
+          "url": "https://lecol.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bicycle shorts for women",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 42,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bicycle shorts women",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 35,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bike shorts for ladies",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 56,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bike shorts ladies",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 26,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bike shorts women",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 43,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bike shorts women's",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 80,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "biking shorts for women",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 32,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycle pants ladies",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 65,
+          "url": "https://lecol.cc/collections/womens-cycling-clothing"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycle shorts for ladies",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 20,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling pants ladies",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 9,
+          "url": "https://lecol.cc/collections/womens-cycling-clothing"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling shorts female",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 18,
+          "url": "https://lecol.cc/collections/womens-cycling-clothing"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling shorts for woman",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 9,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling shorts for women",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 7,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        }
+      },
+      "our_rank": null
+    }
+  ],
+  "_cached_at": "2026-03-24T19:18:50.254134"
+}

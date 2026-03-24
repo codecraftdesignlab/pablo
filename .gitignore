@@ -1,4 +1,8 @@
 .env
 google-service-account-key.json
+wordpress-credentials.json
 logs/*.jsonl
 .obsidian/
+node_modules/
+__pycache__/
+*.png

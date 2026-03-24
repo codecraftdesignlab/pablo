@@ -39,7 +39,78 @@ client = BetaAnalyticsDataClient(credentials=creds)
 
 **Important:** Do NOT use `.with_subject()` — GA4 uses direct service account auth, not domain-wide delegation.
 
+### Bot Traffic Exclusion (MANDATORY)
+
+**All GA4 queries for the main site MUST exclude Chinese bot traffic.** Analysis in March 2026 found that ~50% of sessions on `properties/310109076` are from a Chinese botnet (3840x2160 resolution, ~1s sessions, zero engagement). This inflates session counts and deflates conversion/engagement metrics.
+
+Use the helper below or apply the filter manually to every query.
+
+#### Helper: Build a bot-excluded request
+
+```python
+def exclude_bots(dimension_filter=None):
+	"""Wrap an optional dimension filter with the mandatory CN exclusion.
+
+	Returns a FilterExpression that excludes country='China'.
+	If you have your own filter, it is ANDed with the exclusion.
+	"""
+	cn_exclude = FilterExpression(
+		not_expression=FilterExpression(
+			filter=Filter(
+				field_name='country',
+				string_filter=Filter.StringFilter(
+					match_type=Filter.StringFilter.MatchType.EXACT,
+					value='China',
+				),
+			),
+		),
+	)
+	if dimension_filter is None:
+		return cn_exclude
+	return FilterExpression(
+		and_group=FilterExpression.AndGroup(
+			expressions=[cn_exclude, dimension_filter],
+		),
+	)
+```
+
+Usage — every `RunReportRequest` should include `dimension_filter=exclude_bots()`:
+
+```python
+request = RunReportRequest(
+	property='properties/310109076',
+	date_ranges=[DateRange(start_date='30daysAgo', end_date='today')],
+	metrics=[Metric(name='sessions')],
+	dimension_filter=exclude_bots(),  # Always include this
+)
+```
+
+With an additional filter (e.g. product pages only):
+
+```python
+page_filter = FilterExpression(
+	filter=Filter(
+		field_name='pagePath',
+		string_filter=Filter.StringFilter(
+			match_type=Filter.StringFilter.MatchType.CONTAINS,
+			value='/product/',
+		),
+	),
+)
+request = RunReportRequest(
+	property='properties/310109076',
+	date_ranges=[DateRange(start_date='30daysAgo', end_date='today')],
+	dimensions=[Dimension(name='pagePath')],
+	metrics=[Metric(name='screenPageViews')],
+	dimension_filter=exclude_bots(page_filter),  # CN excluded + page filter
+)
+```
+
+**When NOT to exclude:** Only skip the filter if you are specifically analysing the bot traffic itself (e.g. monitoring whether blocking is working).
+
 ### Common Queries
+
+All examples below include bot exclusion.
 
 #### Sessions & Users (last 7 days)
 
@@ -52,6 +123,7 @@ request = RunReportRequest(
 		Metric(name='totalUsers'),
 		Metric(name='ecommercePurchases'),
 	],
+	dimension_filter=exclude_bots(),
 )
 response = client.run_report(request)
 ```
@@ -59,6 +131,15 @@ response = client.run_report(request)
 #### Page Views by URL (e.g. product pages)
 
 ```python
+page_filter = FilterExpression(
+	filter=Filter(
+		field_name='pagePath',
+		string_filter=Filter.StringFilter(
+			match_type=Filter.StringFilter.MatchType.CONTAINS,
+			value='/product/',
+		),
+	),
+)
 request = RunReportRequest(
 	property='properties/310109076',
 	date_ranges=[DateRange(start_date='30daysAgo', end_date='today')],
@@ -67,15 +148,7 @@ request = RunReportRequest(
 		Metric(name='screenPageViews'),
 		Metric(name='sessions'),
 	],
-	dimension_filter=FilterExpression(
-		filter=Filter(
-			field_name='pagePath',
-			string_filter=Filter.StringFilter(
-				match_type=Filter.StringFilter.MatchType.CONTAINS,
-				value='/product/',
-			),
-		),
-	),
+	dimension_filter=exclude_bots(page_filter),
 	order_bys=[OrderBy(metric=OrderBy.MetricOrderBy(metric_name='screenPageViews'), desc=True)],
 	limit=50,
 )
@@ -97,6 +170,7 @@ request = RunReportRequest(
 		Metric(name='ecommercePurchases'),
 		Metric(name='purchaseRevenue'),
 	],
+	dimension_filter=exclude_bots(),
 	order_bys=[OrderBy(metric=OrderBy.MetricOrderBy(metric_name='sessions'), desc=True)],
 	limit=20,
 )
@@ -115,6 +189,7 @@ request = RunReportRequest(
 		Metric(name='itemsPurchased'),
 		Metric(name='itemRevenue'),
 	],
+	dimension_filter=exclude_bots(),
 	order_bys=[OrderBy(metric=OrderBy.MetricOrderBy(metric_name='itemRevenue'), desc=True)],
 	limit=30,
 )
@@ -130,6 +205,7 @@ request = RunReportRequest(
 	metrics=[
 		Metric(name='sessions'),
 	],
+	dimension_filter=exclude_bots(),
 	order_bys=[OrderBy(metric=OrderBy.MetricOrderBy(metric_name='sessions'), desc=True)],
 	limit=30,
 )
@@ -177,6 +253,7 @@ Key GA4 metrics for marketing analysis:
 
 ## Rules
 
+- **Exclude bot traffic** — ALL queries to `properties/310109076` (main site) MUST use `exclude_bots()` to filter out Chinese bot traffic. See "Bot Traffic Exclusion" section above. The CK property (515401720) is not affected.
 - **Read-only** — analytics scope is readonly, cannot modify anything
 - Always specify `date_ranges` — never query without a date range
 - Use `limit` to cap results — GA4 can return thousands of rows

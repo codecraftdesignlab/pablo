@@ -94,19 +94,10 @@ class BudgetTracker:
 
 # ── Search ───────────────────────────────────────────────────────────────────
 
-def search_web(query, budget, max_results=None):
-	"""
-	Search via SerpAPI. Returns list of {title, link, snippet}.
-	Decrements the budget tracker.
-	"""
-	if budget.exhausted:
-		return []
-
-	if max_results is None:
-		max_results = MAX_SEARCH_RESULTS
-
-	budget.use()
-
+def _search_serpapi(query, max_results):
+	"""Search via SerpAPI. Returns list of {title, link, snippet} or None on rate limit."""
+	if not SERP_API_KEY:
+		return None
 	try:
 		resp = requests.get(
 			"https://serpapi.com/search",
@@ -120,19 +111,84 @@ def search_web(query, budget, max_results=None):
 			},
 			timeout=30,
 		)
+		# Detect rate limit — fall back to Claude search
+		if resp.status_code == 429:
+			return None
 		resp.raise_for_status()
 	except requests.exceptions.RequestException as e:
-		print(f"  Warning: search failed ({e})")
-		return []
+		print(f"  Warning: SerpAPI failed ({e})")
+		return None
+
 	data = resp.json()
 
+	# SerpAPI returns an error field when quota is exceeded
+	if "error" in data and "limit" in data["error"].lower():
+		return None
+
+	return [
+		{"title": r.get("title", ""), "link": r.get("link", ""), "snippet": r.get("snippet", "")}
+		for r in data.get("organic_results", [])
+	]
+
+
+def _search_claude(query, max_results):
+	"""Fallback: use Anthropic API with web_search tool. Returns list of {title, link, snippet}."""
+	import anthropic
+
+	print(f"  (falling back to Claude web search)")
+	try:
+		client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+		response = client.messages.create(
+			model="claude-sonnet-4-6",
+			max_tokens=1024,
+			tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 1}],
+			messages=[{
+				"role": "user",
+				"content": f"Search the web for: {query}",
+			}],
+		)
+	except Exception as e:
+		print(f"  Warning: Claude search failed ({e})")
+		return []
+
+	# Extract search results from tool use response
 	results = []
-	for item in data.get("organic_results", []):
-		results.append({
-			"title": item.get("title", ""),
-			"link": item.get("link", ""),
-			"snippet": item.get("snippet", ""),
-		})
+	for block in response.content:
+		if block.type == "tool_result" or (hasattr(block, "content") and isinstance(block.content, list)):
+			# Look through nested content for search results
+			pass
+		if block.type == "web_search_tool_result":
+			for search_result in getattr(block, "search_results", []):
+				results.append({
+					"title": getattr(search_result, "title", ""),
+					"link": getattr(search_result, "url", ""),
+					"snippet": getattr(search_result, "snippet", getattr(search_result, "content", "")),
+				})
+
+	return results[:max_results]
+
+
+def search_web(query, budget, max_results=None):
+	"""
+	Search the web. Tries SerpAPI first, falls back to Claude web search
+	if SerpAPI hits rate limits.
+	Decrements the budget tracker.
+	"""
+	if budget.exhausted:
+		return []
+
+	if max_results is None:
+		max_results = MAX_SEARCH_RESULTS
+
+	budget.use()
+
+	# Try SerpAPI first
+	results = _search_serpapi(query, max_results)
+
+	# Fall back to Claude web search if SerpAPI failed or hit limits
+	if results is None:
+		results = _search_claude(query, max_results)
+
 	return results
 
 

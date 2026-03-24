@@ -20,7 +20,7 @@ def _require_env(key):
 	return val
 
 ANTHROPIC_API_KEY = _require_env("ANTHROPIC_API_KEY")
-SERP_API_KEY = _require_env("SERP_API_KEY")
+SERP_API_KEY = os.environ.get("SERP_API_KEY", "")  # Optional — falls back to Claude web search
 
 # ── Vault paths ──────────────────────────────────────────────────────────────
 

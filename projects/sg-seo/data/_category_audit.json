@@ -1,0 +1,65 @@
+{
+  "jerseys-tops": {
+    "id": 64,
+    "name": "Jerseys &amp; Tops",
+    "slug": "jerseys-tops",
+    "description": "A cycling jersey is an essential in every cyclist\u2019s wardrobe. Made from premium materials for next-level comfort and performance, they\u2019ll have you feeling great and looking awesome \u2013 mile after mile.\r\n\r\nChoose from our ultra-versatile Ibex jerseys for your everyday rides. Our Kiko jerseys for all-weather performance. Turn up the heat in our super breathable Climbers jerseys. Or give it full send with our supremely aerodynamic Epic jerseys.\r\n\r\nWhatever your style, however you like to ride. We\u2019ve got a jersey that\u2019s been made with you in mind. Not sure which jersey is right for you? <a href=\"https://stolengoat.com/our-ranges-explained/\" target=\"_blank\" rel=\"noopener\">Read more</a> about our adventure-ready ranges.",
+    "count": 169
+  },
+  "socks": {
+    "id": 263,
+    "name": "Socks",
+    "slug": "socks",
+    "description": "<h1>Cycling Socks</h1>\r\nUp your sock game with our range of cycling socks! Here to keep your hooves happy on all your cycling adventures. Chilly winter rides or sunshine-filled miles. Team matchy-matchy or a clash-it-up maverick. We've got something to suit every ride, and every style.",
+    "count": 50
+  },
+  "cycling-gloves": {
+    "id": 353,
+    "name": "Gloves &amp; Mitts",
+    "slug": "cycling-gloves",
+    "description": "Here to keep your hands and protected comfy while you ride, our cycling mitts and gloves are available in a range of designs to help you stand out from the crowd. On the road or off the beaten track. Hot summer rides or wintery explores. We\u2019ve got something suitable for every adventure.",
+    "count": 39
+  },
+  "cycling-gilets": {
+    "id": 453,
+    "name": "Men's Cycling Gilets",
+    "slug": "cycling-gilets",
+    "description": "Our men's cycling gilets are the ultimate accessory for changeable weather. There when you need them, easy to stash in your back pocket when you don't. Layer up with a gilet for breezy conditions, chilly descents or nippy morning rides.",
+    "count": 12
+  },
+  "cycling-bib-shorts": {
+    "id": 450,
+    "name": "Men's Cycling Bib Shorts",
+    "slug": "cycling-bib-shorts",
+    "description": "A good pair of cycling bib shorts are an essential for every cyclist. Whether you\u2019re taking on a long day in the saddle or just heading out for a quick spin \u2013 there\u2019s nothing like than an uncomfortable undercarriage to spoil a ride! All of our men\u2019s cycling bib shorts are constructed with premium fabric and an ultra-comfy men\u2019s-specific chamois pad \u2013 designed to give you support, right where you need it.  ",
+    "count": 17
+  },
+  "womens-cycling-bib-shorts": {
+    "id": 1389,
+    "name": "Women's Cycling Bib Shorts",
+    "slug": "womens-cycling-bib-shorts",
+    "description": "When it comes to comfort on the bike, nothing is more essential than a great pair of bib shorts. All of our women\u2019s cycling bib shorts are made using only the best premium fabrics, with ultra-comfy women\u2019s specific chamois pads \u2013 designed to give you support where you need it, without any dreaded chafe-inducing bulk. Long days in the saddle? You\u2019re ready for them! With your new Stolen Goat cycling shorts. ",
+    "count": 17
+  },
+  "womens-gilets": {
+    "id": 1380,
+    "name": "Cycling Gilets",
+    "slug": "womens-gilets",
+    "description": "Fuss-free layering, so you can ride in style. Our women's cycling gilets are lightweight and packable. Designed to offer that extra bit of warmth on chilly descents, cooler morning or those rides where the breeze just bites. There when you need it, easy to fold up and stash in your jersey pocket when you don't. ",
+    "count": 10
+  },
+  "long-sleeve-cycling-jerseys": {
+    "id": 448,
+    "name": "Men's Long Sleeved Cycling Jerseys",
+    "slug": "long-sleeve-cycling-jerseys",
+    "description": "Our men\u2019s long sleeved cycling jerseys come in lightweight, UV protective options for those warmer rides, or weather-ready thermal styles to help you take on the changing seasons with ease. Premium quality, next-level performance: here to help you get the most out of every ride.",
+    "count": 28
+  },
+  "cycling-arm-warmers": {
+    "id": 303,
+    "name": "Cycling Arm Warmers",
+    "slug": "cycling-arm-warmers",
+    "description": "Maximise the potential of your <a href=\"https://stolengoat.com/product-category/clothing/short-sleeve-cycling-jerseys/\">short sleeve cycling jerseys</a> with a set of cycling arm warmers...\r\n\r\nChoose from our lightweight Ibex arm screens, offering UV protection for those sunny days in the saddle. Or our thermal, water-resistant, wind-resistant Kiko arm warmers for those nippy autumn and winter rides. ",
+    "count": 24
+  }
+}

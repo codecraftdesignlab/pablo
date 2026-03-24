@@ -1,0 +1,9 @@
+{"id": "TASK-001", "title": "Build tools/seo/ Python modules and CLAUDE.md", "status": "done", "agent": "builder", "milestone": 1, "brief": "briefs/TASK-001.md", "created": "2026-03-24"}
+{"id": "TASK-002", "title": "Audit current GSC position and GA4 site search", "status": "done", "agent": "analyst", "milestone": 2, "brief": "briefs/TASK-002.md", "created": "2026-03-24"}
+{"id": "TASK-003", "title": "Competitor gap analysis — lifestyle set", "status": "done", "agent": "researcher", "milestone": 2, "brief": "briefs/TASK-003.md", "created": "2026-03-24"}
+{"id": "TASK-004", "title": "Competitor gap analysis — CK set", "status": "done", "agent": "researcher", "milestone": 2, "brief": "briefs/TASK-004.md", "created": "2026-03-24"}
+{"id": "TASK-005", "title": "Keyword universe building and intent clustering", "status": "done", "agent": "analyst", "milestone": 2, "brief": "briefs/TASK-005.md", "created": "2026-03-24"}
+{"id": "TASK-006", "title": "Produce keyword strategy and content briefs", "status": "done", "agent": "strategist", "milestone": 3, "brief": "briefs/TASK-006.md", "created": "2026-03-24"}
+{"id": "TASK-007", "title": "Weekly rank tracking script and first baseline", "status": "done", "agent": "builder", "milestone": 4, "brief": "", "created": "2026-03-24"}
+{"id": "TASK-008", "title": "Schedule weekly rank tracking task", "status": "done", "agent": "builder", "milestone": 4, "brief": "", "created": "2026-03-24"}
+{"id": "TASK-009", "title": "WordPress integration and on-site optimisation plan", "status": "done", "agent": "builder", "milestone": 5, "brief": "briefs/TASK-009.md", "created": "2026-03-24"}

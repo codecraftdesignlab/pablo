@@ -1,0 +1,1671 @@
+{
+  "channel_engagement": [
+    {
+      "sessionDefaultChannelGroup": "Direct",
+      "sessions": "50020",
+      "averageSessionDuration": "37.896978187704917",
+      "engagedSessions": "7826",
+      "engagementRate": "0.15645741703318672",
+      "bounceRate": "0.84354258296681328"
+    },
+    {
+      "sessionDefaultChannelGroup": "Paid Social",
+      "sessions": "6592",
+      "averageSessionDuration": "124.94940808813713",
+      "engagedSessions": "3742",
+      "engagementRate": "0.56765776699029125",
+      "bounceRate": "0.43234223300970875"
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessions": "4752",
+      "averageSessionDuration": "235.69121057554716",
+      "engagedSessions": "3282",
+      "engagementRate": "0.69065656565656564",
+      "bounceRate": "0.30934343434343436"
+    },
+    {
+      "sessionDefaultChannelGroup": "Cross-network",
+      "sessions": "3451",
+      "averageSessionDuration": "257.28229635294122",
+      "engagedSessions": "2459",
+      "engagementRate": "0.71254708780063747",
+      "bounceRate": "0.28745291219936253"
+    },
+    {
+      "sessionDefaultChannelGroup": "Paid Search",
+      "sessions": "2710",
+      "averageSessionDuration": "311.96935434391145",
+      "engagedSessions": "2091",
+      "engagementRate": "0.77158671586715866",
+      "bounceRate": "0.22841328413284132"
+    },
+    {
+      "sessionDefaultChannelGroup": "Email",
+      "sessions": "1967",
+      "averageSessionDuration": "182.27292421860702",
+      "engagedSessions": "1099",
+      "engagementRate": "0.55871886120996439",
+      "bounceRate": "0.44128113879003561"
+    },
+    {
+      "sessionDefaultChannelGroup": "Unassigned",
+      "sessions": "1628",
+      "averageSessionDuration": "423.58968487346436",
+      "engagedSessions": "74",
+      "engagementRate": "0.045454545454545456",
+      "bounceRate": "0.95454545454545459"
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Social",
+      "sessions": "1310",
+      "averageSessionDuration": "148.35316331679391",
+      "engagedSessions": "921",
+      "engagementRate": "0.7030534351145038",
+      "bounceRate": "0.2969465648854962"
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessions": "898",
+      "averageSessionDuration": "245.09590315812918",
+      "engagedSessions": "563",
+      "engagementRate": "0.62694877505567925",
+      "bounceRate": "0.37305122494432069"
+    },
+    {
+      "sessionDefaultChannelGroup": "Paid Other",
+      "sessions": "67",
+      "averageSessionDuration": "85.4618563432836",
+      "engagedSessions": "24",
+      "engagementRate": "0.35820895522388058",
+      "bounceRate": "0.64179104477611937"
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Shopping",
+      "sessions": "2",
+      "averageSessionDuration": "58.359474500000005",
+      "engagedSessions": "1",
+      "engagementRate": "0.5",
+      "bounceRate": "0.5"
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Video",
+      "sessions": "1",
+      "averageSessionDuration": "123.685598",
+      "engagedSessions": "1",
+      "engagementRate": "1",
+      "bounceRate": "0"
+    }
+  ],
+  "source_medium": [
+    {
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessions": "50020",
+      "engagementRate": "0.15645741703318672",
+      "averageSessionDuration": "37.896978187704917",
+      "bounceRate": "0.84354258296681328",
+      "conversions": "1428"
+    },
+    {
+      "sessionSourceMedium": "google / cpc",
+      "sessions": "5842",
+      "engagementRate": "0.74067100308113665",
+      "averageSessionDuration": "277.72009151694624",
+      "bounceRate": "0.25932899691886341",
+      "conversions": "958"
+    },
+    {
+      "sessionSourceMedium": "Facebook_Mobile_Feed / cpc",
+      "sessions": "4638",
+      "engagementRate": "0.57395429064251835",
+      "averageSessionDuration": "126.64141524838291",
+      "bounceRate": "0.42604570935748165",
+      "conversions": "204"
+    },
+    {
+      "sessionSourceMedium": "google / organic",
+      "sessions": "4381",
+      "engagementRate": "0.6913946587537092",
+      "averageSessionDuration": "225.50681123647567",
+      "bounceRate": "0.3086053412462908",
+      "conversions": "341"
+    },
+    {
+      "sessionSourceMedium": "Metmetorik / email",
+      "sessions": "1966",
+      "engagementRate": "0.559003051881994",
+      "averageSessionDuration": "182.36563613733469",
+      "bounceRate": "0.4409969481180061",
+      "conversions": "114"
+    },
+    {
+      "sessionSourceMedium": "(not set)",
+      "sessions": "1529",
+      "engagementRate": "0.021582733812949641",
+      "averageSessionDuration": "444.00973951013736",
+      "bounceRate": "0.97841726618705038",
+      "conversions": "98"
+    },
+    {
+      "sessionSourceMedium": "Instagram_Feed / cpc",
+      "sessions": "1051",
+      "engagementRate": "0.615604186489058",
+      "averageSessionDuration": "109.35188502473834",
+      "bounceRate": "0.384395813510942",
+      "conversions": "43"
+    },
+    {
+      "sessionSourceMedium": "m.facebook.com / referral",
+      "sessions": "469",
+      "engagementRate": "0.60767590618336886",
+      "averageSessionDuration": "130.84322174626865",
+      "bounceRate": "0.39232409381663114",
+      "conversions": "67"
+    },
+    {
+      "sessionSourceMedium": "ukcyclingevents.co.uk / referral",
+      "sessions": "306",
+      "engagementRate": "0.630718954248366",
+      "averageSessionDuration": "258.08457836601309",
+      "bounceRate": "0.369281045751634",
+      "conversions": "10"
+    },
+    {
+      "sessionSourceMedium": "Facebook_Mobile_Reels / cpc",
+      "sessions": "263",
+      "engagementRate": "0.51330798479087447",
+      "averageSessionDuration": "127.3961436311787",
+      "bounceRate": "0.48669201520912547",
+      "conversions": "15"
+    },
+    {
+      "sessionSourceMedium": "l.facebook.com / referral",
+      "sessions": "254",
+      "engagementRate": "0.80314960629921262",
+      "averageSessionDuration": "243.01788235039368",
+      "bounceRate": "0.19685039370078741",
+      "conversions": "45"
+    },
+    {
+      "sessionSourceMedium": "Facebook_Desktop_Feed / cpc",
+      "sessions": "212",
+      "engagementRate": "0.70283018867924529",
+      "averageSessionDuration": "270.72854208490571",
+      "bounceRate": "0.29716981132075471",
+      "conversions": "13"
+    },
+    {
+      "sessionSourceMedium": "bing / cpc",
+      "sessions": "181",
+      "engagementRate": "0.73480662983425415",
+      "averageSessionDuration": "286.47747677348065",
+      "bounceRate": "0.26519337016574585",
+      "conversions": "39"
+    },
+    {
+      "sessionSourceMedium": "Instagram_Stories / cpc",
+      "sessions": "164",
+      "engagementRate": "0.38414634146341464",
+      "averageSessionDuration": "65.257764158536588",
+      "bounceRate": "0.61585365853658536",
+      "conversions": "11"
+    },
+    {
+      "sessionSourceMedium": "bing / organic",
+      "sessions": "154",
+      "engagementRate": "0.7142857142857143",
+      "averageSessionDuration": "270.44051018181818",
+      "bounceRate": "0.2857142857142857",
+      "conversions": "20"
+    },
+    {
+      "sessionSourceMedium": "lm.facebook.com / referral",
+      "sessions": "154",
+      "engagementRate": "0.79220779220779225",
+      "averageSessionDuration": "179.03545964935068",
+      "bounceRate": "0.20779220779220781",
+      "conversions": "25"
+    },
+    {
+      "sessionSourceMedium": "ig / social",
+      "sessions": "134",
+      "engagementRate": "0.76865671641791045",
+      "averageSessionDuration": "113.32596044029852",
+      "bounceRate": "0.23134328358208955",
+      "conversions": "8"
+    },
+    {
+      "sessionSourceMedium": "facebook.com / referral",
+      "sessions": "130",
+      "engagementRate": "0.66153846153846152",
+      "averageSessionDuration": "23.869992061538465",
+      "bounceRate": "0.33846153846153848",
+      "conversions": "2"
+    },
+    {
+      "sessionSourceMedium": "reddit.com / referral",
+      "sessions": "129",
+      "engagementRate": "0.71317829457364346",
+      "averageSessionDuration": "146.93384226356588",
+      "bounceRate": "0.2868217054263566",
+      "conversions": "3"
+    },
+    {
+      "sessionSourceMedium": "(data not available)",
+      "sessions": "121",
+      "engagementRate": "0.2975206611570248",
+      "averageSessionDuration": "487.80956238016535",
+      "bounceRate": "0.7024793388429752",
+      "conversions": "4"
+    },
+    {
+      "sessionSourceMedium": "Instagram_Reels / cpc",
+      "sessions": "120",
+      "engagementRate": "0.425",
+      "averageSessionDuration": "66.28068385",
+      "bounceRate": "0.575",
+      "conversions": "3"
+    },
+    {
+      "sessionSourceMedium": "audax.uk / referral",
+      "sessions": "94",
+      "engagementRate": "0.776595744680851",
+      "averageSessionDuration": "209.64827834042552",
+      "bounceRate": "0.22340425531914893",
+      "conversions": "7"
+    },
+    {
+      "sessionSourceMedium": "duckduckgo / organic",
+      "sessions": "73",
+      "engagementRate": "0.65753424657534243",
+      "averageSessionDuration": "230.2856514794521",
+      "bounceRate": "0.34246575342465752",
+      "conversions": "9"
+    },
+    {
+      "sessionSourceMedium": "uk.search.yahoo.com / referral",
+      "sessions": "67",
+      "engagementRate": "0.64179104477611937",
+      "averageSessionDuration": "869.5505767313432",
+      "bounceRate": "0.35820895522388058",
+      "conversions": "2"
+    },
+    {
+      "sessionSourceMedium": "ecosia.org / organic",
+      "sessions": "55",
+      "engagementRate": "0.69090909090909092",
+      "averageSessionDuration": "251.35248878181818",
+      "bounceRate": "0.30909090909090908",
+      "conversions": "8"
+    },
+    {
+      "sessionSourceMedium": "Facebook_Marketplace / cpc",
+      "sessions": "50",
+      "engagementRate": "0.42",
+      "averageSessionDuration": "31.735478200000003",
+      "bounceRate": "0.58",
+      "conversions": "0"
+    },
+    {
+      "sessionSourceMedium": "Klaviyo / campaign",
+      "sessions": "50",
+      "engagementRate": "0.36",
+      "averageSessionDuration": "126.61849176",
+      "bounceRate": "0.64",
+      "conversions": "6"
+    },
+    {
+      "sessionSourceMedium": "members.myezrewards.com / referral",
+      "sessions": "49",
+      "engagementRate": "0.53061224489795922",
+      "averageSessionDuration": "239.00883146938779",
+      "bounceRate": "0.46938775510204084",
+      "conversions": "11"
+    },
+    {
+      "sessionSourceMedium": "bikepacking.com / referral",
+      "sessions": "45",
+      "engagementRate": "0.62222222222222223",
+      "averageSessionDuration": "116.9115604888889",
+      "bounceRate": "0.37777777777777777",
+      "conversions": "0"
+    },
+    {
+      "sessionSourceMedium": "mail.google.com / referral",
+      "sessions": "45",
+      "engagementRate": "0.55555555555555558",
+      "averageSessionDuration": "343.61545155555558",
+      "bounceRate": "0.44444444444444442",
+      "conversions": "0"
+    },
+    {
+      "sessionSourceMedium": "portal.clearpay.co.uk / referral",
+      "sessions": "36",
+      "engagementRate": "0.41666666666666669",
+      "averageSessionDuration": "275.64707166666665",
+      "bounceRate": "0.58333333333333337",
+      "conversions": "9"
+    },
+    {
+      "sessionSourceMedium": "wokinghamcycling.club / referral",
+      "sessions": "35",
+      "engagementRate": "0.7142857142857143",
+      "averageSessionDuration": "196.99836437142855",
+      "bounceRate": "0.2857142857142857",
+      "conversions": "0"
+    },
+    {
+      "sessionSourceMedium": "an / cpc",
+      "sessions": "34",
+      "engagementRate": "0.29411764705882354",
+      "averageSessionDuration": "86.4954274117647",
+      "bounceRate": "0.70588235294117652",
+      "conversions": "0"
+    },
+    {
+      "sessionSourceMedium": "Others / cpc",
+      "sessions": "33",
+      "engagementRate": "0.42424242424242425",
+      "averageSessionDuration": "84.396964939393939",
+      "bounceRate": "0.5757575757575758",
+      "conversions": "0"
+    },
+    {
+      "sessionSourceMedium": "Facebook_Right_Column / cpc",
+      "sessions": "29",
+      "engagementRate": "0.75862068965517238",
+      "averageSessionDuration": "260.15941344827587",
+      "bounceRate": "0.2413793103448276",
+      "conversions": "0"
+    },
+    {
+      "sessionSourceMedium": "Facebook_Stories / cpc",
+      "sessions": "27",
+      "engagementRate": "0.29629629629629628",
+      "averageSessionDuration": "86.92730251851853",
+      "bounceRate": "0.70370370370370372",
+      "conversions": "0"
+    },
+    {
+      "sessionSourceMedium": "l.instagram.com / referral",
+      "sessions": "26",
+      "engagementRate": "0.76923076923076927",
+      "averageSessionDuration": "156.25453803846153",
+      "bounceRate": "0.23076923076923078",
+      "conversions": "7"
+    },
+    {
+      "sessionSourceMedium": "challenging.events / referral",
+      "sessions": "24",
+      "engagementRate": "0.5",
+      "averageSessionDuration": "45.596776791666663",
+      "bounceRate": "0.5",
+      "conversions": "0"
+    },
+    {
+      "sessionSourceMedium": "chasethesun.org / referral",
+      "sessions": "23",
+      "engagementRate": "0.47826086956521741",
+      "averageSessionDuration": "251.05444",
+      "bounceRate": "0.52173913043478259",
+      "conversions": "0"
+    },
+    {
+      "sessionSourceMedium": "cowleyroadcondors.cc / referral",
+      "sessions": "19",
+      "engagementRate": "0.94736842105263153",
+      "averageSessionDuration": "337.92196589473684",
+      "bounceRate": "0.052631578947368418",
+      "conversions": "1"
+    },
+    {
+      "sessionSourceMedium": "letsgovelo.eventrac.co.uk / referral",
+      "sessions": "18",
+      "engagementRate": "0.94444444444444442",
+      "averageSessionDuration": "247.26665616666665",
+      "bounceRate": "0.055555555555555552",
+      "conversions": "2"
+    },
+    {
+      "sessionSourceMedium": "ERR / epic-road-rides-referral",
+      "sessions": "15",
+      "engagementRate": "0.66666666666666663",
+      "averageSessionDuration": "210.59360846666669",
+      "bounceRate": "0.33333333333333331",
+      "conversions": "1"
+    },
+    {
+      "sessionSourceMedium": "email.bt.com / referral",
+      "sessions": "15",
+      "engagementRate": "0.46666666666666667",
+      "averageSessionDuration": "66.167419933333335",
+      "bounceRate": "0.53333333333333333",
+      "conversions": "0"
+    },
+    {
+      "sessionSourceMedium": "rondecc.com / referral",
+      "sessions": "14",
+      "engagementRate": "0.6428571428571429",
+      "averageSessionDuration": "79.155303571428576",
+      "bounceRate": "0.35714285714285715",
+      "conversions": "0"
+    },
+    {
+      "sessionSourceMedium": "cyclinguk.org / referral",
+      "sessions": "12",
+      "engagementRate": "0.75",
+      "averageSessionDuration": "133.58762258333334",
+      "bounceRate": "0.25",
+      "conversions": "0"
+    },
+    {
+      "sessionSourceMedium": "stolengoat.promopro.co.uk / referral",
+      "sessions": "11",
+      "engagementRate": "0.27272727272727271",
+      "averageSessionDuration": "290.92035909090913",
+      "bounceRate": "0.72727272727272729",
+      "conversions": "5"
+    },
+    {
+      "sessionSourceMedium": "chatgpt.com / (not set)",
+      "sessions": "10",
+      "engagementRate": "0.7",
+      "averageSessionDuration": "40.4158718",
+      "bounceRate": "0.3",
+      "conversions": "0"
+    },
+    {
+      "sessionSourceMedium": "joqbwksjjahfmkfzsynm.supabase.co / referral",
+      "sessions": "10",
+      "engagementRate": "0.3",
+      "averageSessionDuration": "2053.99892",
+      "bounceRate": "0.7",
+      "conversions": "0"
+    },
+    {
+      "sessionSourceMedium": "Stolen Goat / Blog",
+      "sessions": "9",
+      "engagementRate": "0",
+      "averageSessionDuration": "0.746874",
+      "bounceRate": "1",
+      "conversions": "0"
+    },
+    {
+      "sessionSourceMedium": "preview.mailerlite.io / referral",
+      "sessions": "8",
+      "engagementRate": "0.625",
+      "averageSessionDuration": "106.36339025000001",
+      "bounceRate": "0.375",
+      "conversions": "3"
+    }
+  ],
+  "browser_os": [
+    {
+      "browser": "Chrome",
+      "operatingSystem": "Windows",
+      "sessions": "41717",
+      "engagementRate": "0.071577534338519072",
+      "bounceRate": "0.9284224656614809"
+    },
+    {
+      "browser": "Safari",
+      "operatingSystem": "iOS",
+      "sessions": "13443",
+      "engagementRate": "0.56326712787324262",
+      "bounceRate": "0.43673287212675743"
+    },
+    {
+      "browser": "Chrome",
+      "operatingSystem": "Android",
+      "sessions": "6049",
+      "engagementRate": "0.70755496776326665",
+      "bounceRate": "0.29244503223673335"
+    },
+    {
+      "browser": "Safari",
+      "operatingSystem": "Macintosh",
+      "sessions": "2612",
+      "engagementRate": "0.6891271056661562",
+      "bounceRate": "0.3108728943338438"
+    },
+    {
+      "browser": "Android Webview",
+      "operatingSystem": "Android",
+      "sessions": "2019",
+      "engagementRate": "0.68845963348192174",
+      "bounceRate": "0.31154036651807826"
+    },
+    {
+      "browser": "Chrome",
+      "operatingSystem": "iOS",
+      "sessions": "1660",
+      "engagementRate": "0.53433734939759037",
+      "bounceRate": "0.46566265060240963"
+    },
+    {
+      "browser": "Samsung Internet",
+      "operatingSystem": "Android",
+      "sessions": "1373",
+      "engagementRate": "0.63219227967953384",
+      "bounceRate": "0.36780772032046616"
+    },
+    {
+      "browser": "Chrome",
+      "operatingSystem": "Macintosh",
+      "sessions": "1098",
+      "engagementRate": "0.61020036429872493",
+      "bounceRate": "0.38979963570127507"
+    },
+    {
+      "browser": "Edge",
+      "operatingSystem": "Windows",
+      "sessions": "1023",
+      "engagementRate": "0.74682306940371457",
+      "bounceRate": "0.25317693059628543"
+    },
+    {
+      "browser": "Chrome",
+      "operatingSystem": "Linux",
+      "sessions": "289",
+      "engagementRate": "0.40830449826989618",
+      "bounceRate": "0.59169550173010377"
+    },
+    {
+      "browser": "Firefox",
+      "operatingSystem": "Windows",
+      "sessions": "262",
+      "engagementRate": "0.73664122137404575",
+      "bounceRate": "0.26335877862595419"
+    },
+    {
+      "browser": "Safari (in-app)",
+      "operatingSystem": "iOS",
+      "sessions": "227",
+      "engagementRate": "0.46696035242290751",
+      "bounceRate": "0.53303964757709255"
+    },
+    {
+      "browser": "Edge",
+      "operatingSystem": "Android",
+      "sessions": "180",
+      "engagementRate": "0.62777777777777777",
+      "bounceRate": "0.37222222222222223"
+    },
+    {
+      "browser": "Firefox",
+      "operatingSystem": "Android",
+      "sessions": "139",
+      "engagementRate": "0.71223021582733814",
+      "bounceRate": "0.28776978417266186"
+    },
+    {
+      "browser": "Chrome",
+      "operatingSystem": "Chrome OS",
+      "sessions": "111",
+      "engagementRate": "0.71171171171171166",
+      "bounceRate": "0.28828828828828829"
+    },
+    {
+      "browser": "Firefox",
+      "operatingSystem": "Macintosh",
+      "sessions": "111",
+      "engagementRate": "0.68468468468468469",
+      "bounceRate": "0.31531531531531531"
+    },
+    {
+      "browser": "Samsung Internet",
+      "operatingSystem": "Linux",
+      "sessions": "42",
+      "engagementRate": "0.69047619047619047",
+      "bounceRate": "0.30952380952380953"
+    },
+    {
+      "browser": "Mozilla Compatible Agent",
+      "operatingSystem": "Macintosh",
+      "sessions": "37",
+      "engagementRate": "0.054054054054054057",
+      "bounceRate": "0.94594594594594594"
+    },
+    {
+      "browser": "Opera",
+      "operatingSystem": "Windows",
+      "sessions": "29",
+      "engagementRate": "0.75862068965517238",
+      "bounceRate": "0.2413793103448276"
+    },
+    {
+      "browser": "Firefox",
+      "operatingSystem": "Linux",
+      "sessions": "28",
+      "engagementRate": "0.42857142857142855",
+      "bounceRate": "0.5714285714285714"
+    },
+    {
+      "browser": "Opera",
+      "operatingSystem": "Android",
+      "sessions": "23",
+      "engagementRate": "0.60869565217391308",
+      "bounceRate": "0.391304347826087"
+    },
+    {
+      "browser": "(not set)",
+      "operatingSystem": "iOS",
+      "sessions": "10",
+      "engagementRate": "0.3",
+      "bounceRate": "0.7"
+    },
+    {
+      "browser": "(not set)",
+      "operatingSystem": "(not set)",
+      "sessions": "9",
+      "engagementRate": "0",
+      "bounceRate": "1"
+    },
+    {
+      "browser": "Edge",
+      "operatingSystem": "Macintosh",
+      "sessions": "8",
+      "engagementRate": "0.5",
+      "bounceRate": "0.5"
+    },
+    {
+      "browser": "Edge",
+      "operatingSystem": "Linux",
+      "sessions": "6",
+      "engagementRate": "0.66666666666666663",
+      "bounceRate": "0.33333333333333331"
+    },
+    {
+      "browser": "Mozilla Compatible Agent",
+      "operatingSystem": "Windows",
+      "sessions": "3",
+      "engagementRate": "0",
+      "bounceRate": "1"
+    },
+    {
+      "browser": "Opera",
+      "operatingSystem": "Linux",
+      "sessions": "3",
+      "engagementRate": "0.66666666666666663",
+      "bounceRate": "0.33333333333333331"
+    },
+    {
+      "browser": "Android Runtime",
+      "operatingSystem": "Android",
+      "sessions": "2",
+      "engagementRate": "0.5",
+      "bounceRate": "0.5"
+    },
+    {
+      "browser": "(not set)",
+      "operatingSystem": "",
+      "sessions": "1",
+      "engagementRate": "0",
+      "bounceRate": "1"
+    },
+    {
+      "browser": "(not set)",
+      "operatingSystem": "Windows",
+      "sessions": "1",
+      "engagementRate": "1",
+      "bounceRate": "0"
+    },
+    {
+      "browser": "Internet Explorer",
+      "operatingSystem": "Windows",
+      "sessions": "1",
+      "engagementRate": "1",
+      "bounceRate": "0"
+    },
+    {
+      "browser": "Mozilla Compatible Agent",
+      "operatingSystem": "(not set)",
+      "sessions": "1",
+      "engagementRate": "1",
+      "bounceRate": "0"
+    },
+    {
+      "browser": "Opera",
+      "operatingSystem": "Macintosh",
+      "sessions": "1",
+      "engagementRate": "1",
+      "bounceRate": "0"
+    },
+    {
+      "browser": "Safari",
+      "operatingSystem": "(not set)",
+      "sessions": "1",
+      "engagementRate": "1",
+      "bounceRate": "0"
+    },
+    {
+      "browser": "Whale Browser",
+      "operatingSystem": "Windows",
+      "sessions": "1",
+      "engagementRate": "0",
+      "bounceRate": "1"
+    },
+    {
+      "browser": "YaBrowser",
+      "operatingSystem": "Windows",
+      "sessions": "1",
+      "engagementRate": "0",
+      "bounceRate": "1"
+    }
+  ],
+  "screen_resolution": [
+    {
+      "screenResolution": "3840x2160",
+      "sessions": "37380",
+      "engagementRate": "0.0042803638309256284"
+    },
+    {
+      "screenResolution": "390x844",
+      "sessions": "3768",
+      "engagementRate": "0.55573248407643316"
+    },
+    {
+      "screenResolution": "1920x1080",
+      "sessions": "3354",
+      "engagementRate": "0.69976147883124629"
+    },
+    {
+      "screenResolution": "393x852",
+      "sessions": "3157",
+      "engagementRate": "0.57047830218561923"
+    },
+    {
+      "screenResolution": "402x874",
+      "sessions": "2006",
+      "engagementRate": "0.5603190428713859"
+    },
+    {
+      "screenResolution": "360x780",
+      "sessions": "1440",
+      "engagementRate": "0.66805555555555551"
+    },
+    {
+      "screenResolution": "384x832",
+      "sessions": "1289",
+      "engagementRate": "0.70830100853374711"
+    },
+    {
+      "screenResolution": "375x812",
+      "sessions": "1286",
+      "engagementRate": "0.54976671850699843"
+    },
+    {
+      "screenResolution": "412x915",
+      "sessions": "1246",
+      "engagementRate": "0.6597110754414125"
+    },
+    {
+      "screenResolution": "430x932",
+      "sessions": "912",
+      "engagementRate": "0.52850877192982459"
+    },
+    {
+      "screenResolution": "820x1180",
+      "sessions": "802",
+      "engagementRate": "0.66832917705735662"
+    },
+    {
+      "screenResolution": "375x667",
+      "sessions": "763",
+      "engagementRate": "0.581913499344692"
+    },
+    {
+      "screenResolution": "414x896",
+      "sessions": "731",
+      "engagementRate": "0.59233926128590975"
+    },
+    {
+      "screenResolution": "412x892",
+      "sessions": "695",
+      "engagementRate": "0.67050359712230212"
+    },
+    {
+      "screenResolution": "440x956",
+      "sessions": "675",
+      "engagementRate": "0.54518518518518522"
+    },
+    {
+      "screenResolution": "1536x864",
+      "sessions": "583",
+      "engagementRate": "0.72041166380789023"
+    },
+    {
+      "screenResolution": "360x800",
+      "sessions": "568",
+      "engagementRate": "0.68309859154929575"
+    },
+    {
+      "screenResolution": "1440x900",
+      "sessions": "537",
+      "engagementRate": "0.65735567970204845"
+    },
+    {
+      "screenResolution": "320x693",
+      "sessions": "537",
+      "engagementRate": "0.57728119180633142"
+    },
+    {
+      "screenResolution": "428x926",
+      "sessions": "496",
+      "engagementRate": "0.532258064516129"
+    },
+    {
+      "screenResolution": "810x1080",
+      "sessions": "456",
+      "engagementRate": "0.64035087719298245"
+    },
+    {
+      "screenResolution": "2560x1440",
+      "sessions": "424",
+      "engagementRate": "0.73584905660377353"
+    },
+    {
+      "screenResolution": "412x924",
+      "sessions": "422",
+      "engagementRate": "0.70142180094786732"
+    },
+    {
+      "screenResolution": "1280x720",
+      "sessions": "348",
+      "engagementRate": "0.62356321839080464"
+    },
+    {
+      "screenResolution": "1470x956",
+      "sessions": "324",
+      "engagementRate": "0.74691358024691357"
+    },
+    {
+      "screenResolution": "800x600",
+      "sessions": "309",
+      "engagementRate": "0.13915857605177995"
+    },
+    {
+      "screenResolution": "1024x1366",
+      "sessions": "305",
+      "engagementRate": "0.639344262295082"
+    },
+    {
+      "screenResolution": "384x854",
+      "sessions": "278",
+      "engagementRate": "0.65107913669064743"
+    },
+    {
+      "screenResolution": "768x1024",
+      "sessions": "251",
+      "engagementRate": "0.63745019920318724"
+    },
+    {
+      "screenResolution": "448x998",
+      "sessions": "219",
+      "engagementRate": "0.684931506849315"
+    }
+  ],
+  "country_city": [
+    {
+      "country": "China",
+      "city": "(not set)",
+      "sessions": "25482",
+      "engagementRate": "0.0050623969861078406",
+      "bounceRate": "0.99493760301389211"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "London",
+      "sessions": "5114",
+      "engagementRate": "0.62006257332811887",
+      "bounceRate": "0.37993742667188113"
+    },
+    {
+      "country": "China",
+      "city": "Shanghai",
+      "sessions": "2524",
+      "engagementRate": "0.0031695721077654518",
+      "bounceRate": "0.99683042789223453"
+    },
+    {
+      "country": "China",
+      "city": "Bayingolin Mongol Autonomous Prefecture",
+      "sessions": "1811",
+      "engagementRate": "0.0022087244616234127",
+      "bounceRate": "0.99779127553837654"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "(not set)",
+      "sessions": "1356",
+      "engagementRate": "0.696165191740413",
+      "bounceRate": "0.30383480825958703"
+    },
+    {
+      "country": "China",
+      "city": "Xi'An",
+      "sessions": "1212",
+      "engagementRate": "0.0049504950495049506",
+      "bounceRate": "0.995049504950495"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Birmingham",
+      "sessions": "991",
+      "engagementRate": "0.64783047426841578",
+      "bounceRate": "0.35216952573158428"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Norwich",
+      "sessions": "876",
+      "engagementRate": "0.65410958904109584",
+      "bounceRate": "0.3458904109589041"
+    },
+    {
+      "country": "China",
+      "city": "Guangzhou",
+      "sessions": "871",
+      "engagementRate": "0.0045924225028702642",
+      "bounceRate": "0.99540757749712971"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Plymouth",
+      "sessions": "820",
+      "engagementRate": "0.66951219512195126",
+      "bounceRate": "0.3304878048780488"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Milton Keynes",
+      "sessions": "752",
+      "engagementRate": "0.648936170212766",
+      "bounceRate": "0.35106382978723405"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Wolverhampton",
+      "sessions": "733",
+      "engagementRate": "0.66302864938608463",
+      "bounceRate": "0.33697135061391542"
+    },
+    {
+      "country": "China",
+      "city": "Zhuhai",
+      "sessions": "706",
+      "engagementRate": "0.00141643059490085",
+      "bounceRate": "0.99858356940509918"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Edinburgh",
+      "sessions": "697",
+      "engagementRate": "0.62123385939741749",
+      "bounceRate": "0.37876614060258251"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Newcastle upon Tyne",
+      "sessions": "649",
+      "engagementRate": "0.65177195685670264",
+      "bounceRate": "0.34822804314329736"
+    },
+    {
+      "country": "China",
+      "city": "",
+      "sessions": "645",
+      "engagementRate": "0",
+      "bounceRate": "1"
+    },
+    {
+      "country": "China",
+      "city": "Hangzhou",
+      "sessions": "610",
+      "engagementRate": "0.0032786885245901639",
+      "bounceRate": "0.99672131147540988"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Swindon",
+      "sessions": "610",
+      "engagementRate": "0.660655737704918",
+      "bounceRate": "0.33934426229508197"
+    },
+    {
+      "country": "China",
+      "city": "Yancheng",
+      "sessions": "599",
+      "engagementRate": "0.0016694490818030051",
+      "bounceRate": "0.998330550918197"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Cardiff",
+      "sessions": "502",
+      "engagementRate": "0.6155378486055777",
+      "bounceRate": "0.3844621513944223"
+    },
+    {
+      "country": "United States",
+      "city": "(not set)",
+      "sessions": "468",
+      "engagementRate": "0.71581196581196582",
+      "bounceRate": "0.28418803418803418"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Luton",
+      "sessions": "453",
+      "engagementRate": "0.62913907284768211",
+      "bounceRate": "0.37086092715231789"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Bristol",
+      "sessions": "399",
+      "engagementRate": "0.58897243107769426",
+      "bounceRate": "0.41102756892230574"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Belfast",
+      "sessions": "388",
+      "engagementRate": "0.65206185567010311",
+      "bounceRate": "0.34793814432989689"
+    },
+    {
+      "country": "Ireland",
+      "city": "Dublin",
+      "sessions": "382",
+      "engagementRate": "0.56806282722513091",
+      "bounceRate": "0.43193717277486909"
+    },
+    {
+      "country": "China",
+      "city": "Yantai",
+      "sessions": "370",
+      "engagementRate": "0.0054054054054054057",
+      "bounceRate": "0.99459459459459465"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Manchester",
+      "sessions": "370",
+      "engagementRate": "0.6216216216216216",
+      "bounceRate": "0.3783783783783784"
+    },
+    {
+      "country": "China",
+      "city": "Beijing",
+      "sessions": "357",
+      "engagementRate": "0.0028011204481792717",
+      "bounceRate": "0.99719887955182074"
+    },
+    {
+      "country": "United States",
+      "city": "New York",
+      "sessions": "328",
+      "engagementRate": "0.8597560975609756",
+      "bounceRate": "0.1402439024390244"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Glasgow",
+      "sessions": "312",
+      "engagementRate": "0.66025641025641024",
+      "bounceRate": "0.33974358974358976"
+    },
+    {
+      "country": "China",
+      "city": "Huanggang",
+      "sessions": "304",
+      "engagementRate": "0",
+      "bounceRate": "1"
+    },
+    {
+      "country": "China",
+      "city": "Suzhou",
+      "sessions": "295",
+      "engagementRate": "0",
+      "bounceRate": "1"
+    },
+    {
+      "country": "China",
+      "city": "Jiaxing",
+      "sessions": "290",
+      "engagementRate": "0.010344827586206896",
+      "bounceRate": "0.98965517241379308"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Leeds",
+      "sessions": "282",
+      "engagementRate": "0.61702127659574468",
+      "bounceRate": "0.38297872340425532"
+    },
+    {
+      "country": "China",
+      "city": "Lishui",
+      "sessions": "258",
+      "engagementRate": "0.003875968992248062",
+      "bounceRate": "0.99612403100775193"
+    },
+    {
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "sessions": "257",
+      "engagementRate": "0.65369649805447472",
+      "bounceRate": "0.34630350194552528"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Sheffield",
+      "sessions": "236",
+      "engagementRate": "0.68644067796610164",
+      "bounceRate": "0.3135593220338983"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Liverpool",
+      "sessions": "201",
+      "engagementRate": "0.71144278606965172",
+      "bounceRate": "0.28855721393034828"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Kingston upon Hull",
+      "sessions": "176",
+      "engagementRate": "0.63636363636363635",
+      "bounceRate": "0.36363636363636365"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Reading",
+      "sessions": "175",
+      "engagementRate": "0.64571428571428569",
+      "bounceRate": "0.35428571428571426"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Bath",
+      "sessions": "172",
+      "engagementRate": "0.61627906976744184",
+      "bounceRate": "0.38372093023255816"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Hounslow",
+      "sessions": "167",
+      "engagementRate": "0.52095808383233533",
+      "bounceRate": "0.47904191616766467"
+    },
+    {
+      "country": "United States",
+      "city": "Chicago",
+      "sessions": "165",
+      "engagementRate": "0.806060606060606",
+      "bounceRate": "0.19393939393939394"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Hook",
+      "sessions": "141",
+      "engagementRate": "0.6028368794326241",
+      "bounceRate": "0.3971631205673759"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Nottingham",
+      "sessions": "137",
+      "engagementRate": "0.656934306569343",
+      "bounceRate": "0.34306569343065696"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Portsmouth",
+      "sessions": "135",
+      "engagementRate": "0.71851851851851856",
+      "bounceRate": "0.2814814814814815"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "Southampton",
+      "sessions": "135",
+      "engagementRate": "0.62962962962962965",
+      "bounceRate": "0.37037037037037035"
+    },
+    {
+      "country": "China",
+      "city": "Weihai",
+      "sessions": "133",
+      "engagementRate": "0",
+      "bounceRate": "1"
+    },
+    {
+      "country": "China",
+      "city": "Chongqing",
+      "sessions": "132",
+      "engagementRate": "0",
+      "bounceRate": "1"
+    },
+    {
+      "country": "United States",
+      "city": "Aspen",
+      "sessions": "129",
+      "engagementRate": "0.77519379844961245",
+      "bounceRate": "0.22480620155038761"
+    }
+  ],
+  "hourly": [
+    {
+      "hour": "0",
+      "sessions": "2422",
+      "engagementRate": "0.096201486374896783"
+    },
+    {
+      "hour": "1",
+      "sessions": "2077",
+      "engagementRate": "0.066923447279730375"
+    },
+    {
+      "hour": "10",
+      "sessions": "3271",
+      "engagementRate": "0.37511464383980436"
+    },
+    {
+      "hour": "11",
+      "sessions": "2959",
+      "engagementRate": "0.36904359580939505"
+    },
+    {
+      "hour": "12",
+      "sessions": "2531",
+      "engagementRate": "0.4176214934808376"
+    },
+    {
+      "hour": "13",
+      "sessions": "2536",
+      "engagementRate": "0.43769716088328076"
+    },
+    {
+      "hour": "14",
+      "sessions": "2478",
+      "engagementRate": "0.46287328490718321"
+    },
+    {
+      "hour": "15",
+      "sessions": "2515",
+      "engagementRate": "0.44731610337972166"
+    },
+    {
+      "hour": "16",
+      "sessions": "3385",
+      "engagementRate": "0.43367799113737077"
+    },
+    {
+      "hour": "17",
+      "sessions": "3590",
+      "engagementRate": "0.37604456824512533"
+    },
+    {
+      "hour": "18",
+      "sessions": "4541",
+      "engagementRate": "0.28473904426337809"
+    },
+    {
+      "hour": "19",
+      "sessions": "4250",
+      "engagementRate": "0.32094117647058823"
+    },
+    {
+      "hour": "2",
+      "sessions": "2081",
+      "engagementRate": "0.06198942815953868"
+    },
+    {
+      "hour": "20",
+      "sessions": "4473",
+      "engagementRate": "0.34115805946791861"
+    },
+    {
+      "hour": "21",
+      "sessions": "4382",
+      "engagementRate": "0.33523505248744867"
+    },
+    {
+      "hour": "22",
+      "sessions": "3869",
+      "engagementRate": "0.2930989919875937"
+    },
+    {
+      "hour": "23",
+      "sessions": "2706",
+      "engagementRate": "0.17516629711751663"
+    },
+    {
+      "hour": "3",
+      "sessions": "1876",
+      "engagementRate": "0.068763326226012791"
+    },
+    {
+      "hour": "4",
+      "sessions": "1823",
+      "engagementRate": "0.070213933077345039"
+    },
+    {
+      "hour": "5",
+      "sessions": "1737",
+      "engagementRate": "0.1047783534830167"
+    },
+    {
+      "hour": "6",
+      "sessions": "2070",
+      "engagementRate": "0.21207729468599035"
+    },
+    {
+      "hour": "7",
+      "sessions": "4420",
+      "engagementRate": "0.431447963800905"
+    },
+    {
+      "hour": "8",
+      "sessions": "4564",
+      "engagementRate": "0.45179666958808062"
+    },
+    {
+      "hour": "9",
+      "sessions": "3810",
+      "engagementRate": "0.384251968503937"
+    }
+  ],
+  "new_vs_returning": [
+    {
+      "newVsReturning": "new",
+      "sessionDefaultChannelGroup": "Direct",
+      "sessions": "45903",
+      "engagementRate": "0.12929438163083024",
+      "conversions": "1008"
+    },
+    {
+      "newVsReturning": "new",
+      "sessionDefaultChannelGroup": "Paid Social",
+      "sessions": "3796",
+      "engagementRate": "0.601159114857745",
+      "conversions": "132"
+    },
+    {
+      "newVsReturning": "returning",
+      "sessionDefaultChannelGroup": "Direct",
+      "sessions": "3652",
+      "engagementRate": "0.53340635268346115",
+      "conversions": "408"
+    },
+    {
+      "newVsReturning": "new",
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessions": "2922",
+      "engagementRate": "0.77549623545516766",
+      "conversions": "132"
+    },
+    {
+      "newVsReturning": "new",
+      "sessionDefaultChannelGroup": "Cross-network",
+      "sessions": "2064",
+      "engagementRate": "0.76889534883720934",
+      "conversions": "240"
+    },
+    {
+      "newVsReturning": "returning",
+      "sessionDefaultChannelGroup": "Paid Social",
+      "sessions": "2041",
+      "engagementRate": "0.72072513473787359",
+      "conversions": "157"
+    },
+    {
+      "newVsReturning": "returning",
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessions": "1501",
+      "engagementRate": "0.64423717521652235",
+      "conversions": "246"
+    },
+    {
+      "newVsReturning": "returning",
+      "sessionDefaultChannelGroup": "Email",
+      "sessions": "1414",
+      "engagementRate": "0.69165487977369167",
+      "conversions": "88"
+    },
+    {
+      "newVsReturning": "new",
+      "sessionDefaultChannelGroup": "Paid Search",
+      "sessions": "1348",
+      "engagementRate": "0.9043026706231454",
+      "conversions": "195"
+    },
+    {
+      "newVsReturning": "returning",
+      "sessionDefaultChannelGroup": "Cross-network",
+      "sessions": "1289",
+      "engagementRate": "0.67183863460046545",
+      "conversions": "295"
+    },
+    {
+      "newVsReturning": "returning",
+      "sessionDefaultChannelGroup": "Paid Search",
+      "sessions": "1232",
+      "engagementRate": "0.70373376623376627",
+      "conversions": "258"
+    },
+    {
+      "newVsReturning": "new",
+      "sessionDefaultChannelGroup": "Organic Social",
+      "sessions": "939",
+      "engagementRate": "0.70820021299254521",
+      "conversions": "66"
+    },
+    {
+      "newVsReturning": "",
+      "sessionDefaultChannelGroup": "Unassigned",
+      "sessions": "867",
+      "engagementRate": "0",
+      "conversions": "66"
+    },
+    {
+      "newVsReturning": "(not set)",
+      "sessionDefaultChannelGroup": "Direct",
+      "sessions": "803",
+      "engagementRate": "0.014943960149439602",
+      "conversions": "8"
+    },
+    {
+      "newVsReturning": "(not set)",
+      "sessionDefaultChannelGroup": "Paid Social",
+      "sessions": "753",
+      "engagementRate": "0.015936254980079681",
+      "conversions": "0"
+    },
+    {
+      "newVsReturning": "returning",
+      "sessionDefaultChannelGroup": "Unassigned",
+      "sessions": "529",
+      "engagementRate": "0.071833648393194713",
+      "conversions": "33"
+    },
+    {
+      "newVsReturning": "new",
+      "sessionDefaultChannelGroup": "Referral",
+      "sessions": "502",
+      "engagementRate": "0.70916334661354585",
+      "conversions": "18"
+    },
+    {
+      "newVsReturning": "(not set)",
+      "sessionDefaultChannelGroup": "Email",
+      "sessions": "358",
+      "engagementRate": "0.0223463687150838",
+      "conversions": "4"
+    },
+    {
+      "newVsReturning": "returning",
+      "sessionDefaultChannelGroup": "Referral",
+      "sessions": "333",
+      "engagementRate": "0.60960960960960964",
+      "conversions": "36"
+    },
+    {
+      "newVsReturning": "returning",
+      "sessionDefaultChannelGroup": "Organic Social",
+      "sessions": "311",
+      "engagementRate": "0.81672025723472674",
+      "conversions": "91"
+    },
+    {
+      "newVsReturning": "(not set)",
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessions": "240",
+      "engagementRate": "0.0125",
+      "conversions": "2"
+    },
+    {
+      "newVsReturning": "new",
+      "sessionDefaultChannelGroup": "Unassigned",
+      "sessions": "231",
+      "engagementRate": "0.15584415584415584",
+      "conversions": "6"
+    },
+    {
+      "newVsReturning": "new",
+      "sessionDefaultChannelGroup": "Email",
+      "sessions": "192",
+      "engagementRate": "0.59375",
+      "conversions": "22"
+    },
+    {
+      "newVsReturning": "(not set)",
+      "sessionDefaultChannelGroup": "Cross-network",
+      "sessions": "136",
+      "engagementRate": "0.051470588235294115",
+      "conversions": "7"
+    },
+    {
+      "newVsReturning": "(not set)",
+      "sessionDefaultChannelGroup": "Paid Search",
+      "sessions": "126",
+      "engagementRate": "0.023809523809523808",
+      "conversions": "3"
+    },
+    {
+      "newVsReturning": "(not set)",
+      "sessionDefaultChannelGroup": "Organic Social",
+      "sessions": "64",
+      "engagementRate": "0.0625",
+      "conversions": "0"
+    },
+    {
+      "newVsReturning": "(not set)",
+      "sessionDefaultChannelGroup": "Referral",
+      "sessions": "58",
+      "engagementRate": "0.051724137931034482",
+      "conversions": "3"
+    },
+    {
+      "newVsReturning": "new",
+      "sessionDefaultChannelGroup": "Paid Other",
+      "sessions": "36",
+      "engagementRate": "0.3611111111111111",
+      "conversions": "0"
+    },
+    {
+      "newVsReturning": "",
+      "sessionDefaultChannelGroup": "Direct",
+      "sessions": "35",
+      "engagementRate": "0.11428571428571428",
+      "conversions": "4"
+    },
+    {
+      "newVsReturning": "",
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessions": "18",
+      "engagementRate": "0.055555555555555552",
+      "conversions": "0"
+    },
+    {
+      "newVsReturning": "returning",
+      "sessionDefaultChannelGroup": "Paid Other",
+      "sessions": "18",
+      "engagementRate": "0.61111111111111116",
+      "conversions": "0"
+    },
+    {
+      "newVsReturning": "",
+      "sessionDefaultChannelGroup": "Cross-network",
+      "sessions": "17",
+      "engagementRate": "0.058823529411764705",
+      "conversions": "3"
+    },
+    {
+      "newVsReturning": "",
+      "sessionDefaultChannelGroup": "Paid Social",
+      "sessions": "14",
+      "engagementRate": "0",
+      "conversions": "0"
+    },
+    {
+      "newVsReturning": "(not set)",
+      "sessionDefaultChannelGroup": "Paid Other",
+      "sessions": "13",
+      "engagementRate": "0",
+      "conversions": "0"
+    },
+    {
+      "newVsReturning": "(not set)",
+      "sessionDefaultChannelGroup": "Unassigned",
+      "sessions": "9",
+      "engagementRate": "0",
+      "conversions": "0"
+    },
+    {
+      "newVsReturning": "",
+      "sessionDefaultChannelGroup": "Paid Search",
+      "sessions": "8",
+      "engagementRate": "0",
+      "conversions": "0"
+    },
+    {
+      "newVsReturning": "",
+      "sessionDefaultChannelGroup": "Referral",
+      "sessions": "6",
+      "engagementRate": "0",
+      "conversions": "0"
+    },
+    {
+      "newVsReturning": "new",
+      "sessionDefaultChannelGroup": "Organic Shopping",
+      "sessions": "2",
+      "engagementRate": "0.5",
+      "conversions": "0"
+    },
+    {
+      "newVsReturning": "",
+      "sessionDefaultChannelGroup": "Email",
+      "sessions": "1",
+      "engagementRate": "0",
+      "conversions": "0"
+    },
+    {
+      "newVsReturning": "",
+      "sessionDefaultChannelGroup": "Paid Other",
+      "sessions": "1",
+      "engagementRate": "0",
+      "conversions": "0"
+    },
+    {
+      "newVsReturning": "new",
+      "sessionDefaultChannelGroup": "Organic Video",
+      "sessions": "1",
+      "engagementRate": "1",
+      "conversions": "0"
+    }
+  ]
+}

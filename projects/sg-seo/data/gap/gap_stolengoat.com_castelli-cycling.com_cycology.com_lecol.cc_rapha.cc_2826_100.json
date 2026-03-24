@@ -1,0 +1,1524 @@
+{
+  "our_domain": "stolengoat.com",
+  "competitors": [
+    "lecol.cc",
+    "cycology.com",
+    "castelli-cycling.com",
+    "rapha.cc"
+  ],
+  "gap_keywords": [
+    {
+      "keyword": "col u",
+      "search_volume": 74000,
+      "competition": 0.009999999776482582,
+      "cpc": 0.8299999833106995,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 36,
+          "url": "https://lecol.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "items shop",
+      "search_volume": 40500,
+      "competition": 0,
+      "cpc": 4.380000114440918,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 63,
+          "url": "https://www.rapha.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "tombola uk",
+      "search_volume": 27100,
+      "competition": 0.1599999964237213,
+      "cpc": 1.0199999809265137,
+      "competitor_positions": {
+        "castelli-cycling.com": {
+          "rank": 75,
+          "url": "http://blog.castelli-cycling.com/2018/07/03/win-a-sky-ocean-rescue-jersey-2/?comprehensive-review-of-tombola-bingo-and-the-best-gambling-experiences-in-the-uk"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "rapha",
+      "search_volume": 27100,
+      "competition": 0.9900000095367432,
+      "cpc": 0.5,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 1,
+          "url": "https://www.rapha.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "lcc london",
+      "search_volume": 22200,
+      "competition": 0.029999999329447746,
+      "cpc": 2.3899998664855957,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 86,
+          "url": "https://lecol.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "helmets cycling",
+      "search_volume": 22200,
+      "competition": 1,
+      "cpc": 0.5,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 19,
+          "url": "https://www.rapha.cc/rd/en/shop/helmets"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling shorts",
+      "search_volume": 14800,
+      "competition": 1,
+      "cpc": 0.8799999952316284,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 38,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "leg warmers",
+      "search_volume": 14800,
+      "competition": 1,
+      "cpc": 0.4399999976158142,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 12,
+          "url": "https://www.rapha.cc/gb/en/product/PLT02XXBLK"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bicycle shorts for women",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 42,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "castelli-cycling.com": {
+          "rank": 31,
+          "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Shorts-and-Tights/Shorts/c/Wom-Cyc-Bot-B%26S"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bicycle shorts women",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 35,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "rapha.cc": {
+          "rank": 64,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bike shorts for ladies",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 56,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "rapha.cc": {
+          "rank": 76,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bike shorts ladies",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 26,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "rapha.cc": {
+          "rank": 61,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bike shorts women",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 43,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "rapha.cc": {
+          "rank": 21,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bike shorts women's",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 80,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "rapha.cc": {
+          "rank": 74,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "biking shorts for women",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 32,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "castelli-cycling.com": {
+          "rank": 84,
+          "url": "https://www.castelli-cycling.com/US/en/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycle pants ladies",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 65,
+          "url": "https://lecol.cc/collections/womens-cycling-clothing"
+        },
+        "castelli-cycling.com": {
+          "rank": 46,
+          "url": "https://www.castelli-cycling.com/US/en/"
+        },
+        "rapha.cc": {
+          "rank": 80,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-jeans-and-leggings"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycle shorts for ladies",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 20,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling pants ladies",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 9,
+          "url": "https://lecol.cc/collections/womens-cycling-clothing"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling shorts female",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 18,
+          "url": "https://lecol.cc/collections/womens-cycling-clothing"
+        },
+        "rapha.cc": {
+          "rank": 77,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling shorts for woman",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 9,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "rapha.cc": {
+          "rank": 51,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling shorts for women",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 7,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "rapha.cc": {
+          "rank": 16,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling shorts ladies",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 17,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "rapha.cc": {
+          "rank": 31,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling shorts women",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 2,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "rapha.cc": {
+          "rank": 20,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "female cycling shorts",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 22,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "castelli-cycling.com": {
+          "rank": 79,
+          "url": "https://www.castelli-cycling.com/US/en/"
+        },
+        "rapha.cc": {
+          "rank": 29,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "ladies bicycle shorts",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 41,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "rapha.cc": {
+          "rank": 88,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "ladies cycling shorts",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 36,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "rapha.cc": {
+          "rank": 25,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "riding shorts womens",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 72,
+          "url": "https://lecol.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "spinning shorts womens",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 37,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "castelli-cycling.com": {
+          "rank": 89,
+          "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Shorts-and-Tights/Shorts/c/Wom-Cyc-Bot-B%26S"
+        },
+        "rapha.cc": {
+          "rank": 55,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "woman cycle shorts",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 73,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "castelli-cycling.com": {
+          "rank": 71,
+          "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Shorts-and-Tights/Shorts/c/Wom-Cyc-Bot-B%26S"
+        },
+        "rapha.cc": {
+          "rank": 47,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "women's cycle shorts",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 22,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "women's cycling shorts",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 11,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "rapha.cc": {
+          "rank": 30,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "womens bike riding shorts",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 19,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "castelli-cycling.com": {
+          "rank": 41,
+          "url": "https://www.castelli-cycling.com/US/en/Woman/Cycling/Shorts-and-Tights/Shorts/c/Wom-Cyc-Bot-B%26S"
+        },
+        "rapha.cc": {
+          "rank": 74,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bicycle pink",
+      "search_volume": 12100,
+      "competition": 0.6200000047683716,
+      "cpc": 0.41999998688697815,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 79,
+          "url": "https://www.rapha.cc/us/en"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "spin shorts womens",
+      "search_volume": 12100,
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 37,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "coc shop",
+      "search_volume": 9900,
+      "competition": 0,
+      "cpc": 2.3299999237060547,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 17,
+          "url": "https://lecol.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "coc store",
+      "search_volume": 9900,
+      "competition": 0,
+      "cpc": 2.3299999237060547,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 20,
+          "url": "https://lecol.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "col",
+      "search_volume": 9900,
+      "competition": 0.05999999865889549,
+      "cpc": 11.760000228881836,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 7,
+          "url": "https://lecol.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling shop",
+      "search_volume": 9900,
+      "competition": 0.5799999833106995,
+      "cpc": 0.699999988079071,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 12,
+          "url": "https://lecol.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "discount code deliveroo",
+      "search_volume": 9900,
+      "competition": 0.07999999821186066,
+      "cpc": 0.949999988079071,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 29,
+          "url": "https://lecol.cc/pages/deliveroo-claim-your-25-off-le-col"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "le col",
+      "search_volume": 9900,
+      "competition": 1,
+      "cpc": 0.5699999928474426,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 1,
+          "url": "https://lecol.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "lecol",
+      "search_volume": 9900,
+      "competition": 1,
+      "cpc": 0.5699999928474426,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 1,
+          "url": "https://lecol.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "gore tex jacket",
+      "search_volume": 9900,
+      "competition": 1,
+      "cpc": 0.6700000166893005,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 27,
+          "url": "https://www.rapha.cc/gb/en/product/mens-pro-team-gore-tex-rain-jacket/RJP02XX"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "rapha london",
+      "search_volume": 9900,
+      "competition": 0.12999999523162842,
+      "cpc": 2.0299999713897705,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 1,
+          "url": "https://content.rapha.cc/gb/en/clubhouses/london"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bikes accessories",
+      "search_volume": 8100,
+      "competition": 1,
+      "cpc": 0.4000000059604645,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 64,
+          "url": "https://lecol.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "t shirt studio uk",
+      "search_volume": 8100,
+      "competition": 1,
+      "cpc": 1.0199999809265137,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 56,
+          "url": "https://lecol.cc/products/unisex-cotton-logo-t-shirt"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "t-shirt studio uk",
+      "search_volume": 8100,
+      "competition": 1,
+      "cpc": 1.0199999809265137,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 45,
+          "url": "https://lecol.cc/products/unisex-cotton-logo-t-shirt"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "victoria pendleton cycling",
+      "search_volume": 8100,
+      "competition": 0,
+      "cpc": null,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 62,
+          "url": "https://lecol.cc/blogs/content/olympic-cycling-preview-with-victoria-pendleton"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cargo shorts for woman",
+      "search_volume": 8100,
+      "competition": 1,
+      "cpc": 0.7200000286102295,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 31,
+          "url": "https://www.rapha.cc/gb/en/product/womens-core-cargo-shorts-/WSC02XXBBKXSM"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cargo shorts women",
+      "search_volume": 8100,
+      "competition": 1,
+      "cpc": 0.7200000286102295,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 8,
+          "url": "https://www.rapha.cc/gb/en/product/womens-core-cargo-shorts-/WSC02XXBBKXSM"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cargo shorts women's",
+      "search_volume": 8100,
+      "competition": 1,
+      "cpc": 0.7200000286102295,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 10,
+          "url": "https://www.rapha.cc/gb/en/product/womens-core-cargo-shorts/WSC02XXBBKLRG"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling footwear",
+      "search_volume": 8100,
+      "competition": 1,
+      "cpc": 0.6000000238418579,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 9,
+          "url": "https://www.rapha.cc/rd/en/shop/shoes"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling helmet",
+      "search_volume": 8100,
+      "competition": 1,
+      "cpc": 0.550000011920929,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 11,
+          "url": "https://www.rapha.cc/rd/en/shop/helmets"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling uk",
+      "search_volume": 8100,
+      "competition": 0.550000011920929,
+      "cpc": 0.5899999737739563,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 82,
+          "url": "https://www.rapha.cc/gb/en"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "ladies cargo shorts",
+      "search_volume": 8100,
+      "competition": 1,
+      "cpc": 0.7200000286102295,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 9,
+          "url": "https://www.rapha.cc/gb/en/product/womens-core-cargo-shorts-/WSC02XXBBKXSM"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "short cargo shorts womens",
+      "search_volume": 8100,
+      "competition": 1,
+      "cpc": 0.7200000286102295,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 7,
+          "url": "https://www.rapha.cc/gb/en/product/womens-core-cargo-shorts-/WSC02XXBBKXSM"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bicycle jackets",
+      "search_volume": 6600,
+      "competition": 1,
+      "cpc": 0.5400000214576721,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 14,
+          "url": "https://lecol.cc/collections/cycling-jackets"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "s a calobra",
+      "search_volume": 6600,
+      "competition": 0.05999999865889549,
+      "cpc": 1.3799999952316284,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 26,
+          "url": "https://lecol.cc/blogs/ride-stories/the-slopes-of-sa-calobra"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "sa calobra",
+      "search_volume": 6600,
+      "competition": 0.05999999865889549,
+      "cpc": 1.3799999952316284,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 10,
+          "url": "https://lecol.cc/blogs/ride-stories/the-slopes-of-sa-calobra"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "interview clothes women",
+      "search_volume": 6600,
+      "competition": 1,
+      "cpc": 0.699999988079071,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 90,
+          "url": "https://www.rapha.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "tdf 2025",
+      "search_volume": 6600,
+      "competition": 0,
+      "cpc": null,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 82,
+          "url": "https://www.rapha.cc/us/en"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "apparel cycling",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 1.4800000190734863,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 3,
+          "url": "https://lecol.cc/"
+        },
+        "castelli-cycling.com": {
+          "rank": 26,
+          "url": "https://www.castelli-cycling.com/GB/en/"
+        },
+        "rapha.cc": {
+          "rank": 4,
+          "url": "https://www.rapha.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "apparel for cycling",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 1.4800000190734863,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 5,
+          "url": "https://lecol.cc/collections/mens-cycling-clothing"
+        },
+        "rapha.cc": {
+          "rank": 9,
+          "url": "https://www.rapha.cc/gb/en"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bicycle shorts men",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 1,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 8,
+          "url": "https://lecol.cc/collections/mens-bib-shorts"
+        },
+        "castelli-cycling.com": {
+          "rank": 60,
+          "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Shorts-and-Tights/Shorts/c/Man-Cyc-Bot-B%26S"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bike attire",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 1.4800000190734863,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 7,
+          "url": "https://lecol.cc/"
+        },
+        "rapha.cc": {
+          "rank": 8,
+          "url": "https://www.rapha.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bike cycling gloves",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 0.8100000023841858,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 50,
+          "url": "https://lecol.cc/collections/womens-cycling-mitts-gloves"
+        }
+      },
+      "our_rank": 82
+    },
+    {
+      "keyword": "bike outfits",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 1.4800000190734863,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 1,
+          "url": "https://lecol.cc/"
+        },
+        "rapha.cc": {
+          "rank": 9,
+          "url": "https://www.rapha.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "biking attire",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 1.4800000190734863,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 55,
+          "url": "https://lecol.cc/collections/mens-cycling-clothing"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "biking outfit",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 1.4800000190734863,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 8,
+          "url": "https://lecol.cc/"
+        },
+        "rapha.cc": {
+          "rank": 6,
+          "url": "https://www.rapha.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "biking outfits",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 1.4800000190734863,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 5,
+          "url": "https://lecol.cc/"
+        },
+        "castelli-cycling.com": {
+          "rank": 28,
+          "url": "https://www.castelli-cycling.com/US/en/"
+        },
+        "rapha.cc": {
+          "rank": 4,
+          "url": "https://www.rapha.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "clothes for cycling",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 1.4800000190734863,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 50,
+          "url": "https://lecol.cc/collections/womens-cycling-clothing"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycle shorts men's",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 1,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 35,
+          "url": "https://lecol.cc/collections/mens-cycling-clothing"
+        },
+        "castelli-cycling.com": {
+          "rank": 14,
+          "url": "https://www.castelli-cycling.com/PL/en/Men/Cycling/Shorts-and-Tights/Shorts/c/Man-Cyc-Bot-B%26S"
+        },
+        "rapha.cc": {
+          "rank": 89,
+          "url": "https://www.rapha.cc/gb/en/product/COH02XX"
+        }
+      },
+      "our_rank": 96
+    },
+    {
+      "keyword": "cycling apparel",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 1.4800000190734863,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 4,
+          "url": "https://lecol.cc/"
+        },
+        "castelli-cycling.com": {
+          "rank": 41,
+          "url": "https://www.castelli-cycling.com/US/en/"
+        },
+        "rapha.cc": {
+          "rank": 27,
+          "url": "https://www.rapha.cc/us/en"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling clothing",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 1.4800000190734863,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 5,
+          "url": "https://lecol.cc/collections/mens-cycling-clothing"
+        },
+        "castelli-cycling.com": {
+          "rank": 18,
+          "url": "https://www.castelli-cycling.com/GB/en/Men/c/Man"
+        },
+        "rapha.cc": {
+          "rank": 3,
+          "url": "https://www.rapha.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling gloves",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 0.8100000023841858,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 33,
+          "url": "https://lecol.cc/collections/mens-cycling-mitts-gloves"
+        },
+        "castelli-cycling.com": {
+          "rank": 9,
+          "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Accessories/Gloves/c/Man-Cyc-Acc-Glo"
+        },
+        "rapha.cc": {
+          "rank": 21,
+          "url": "https://www.rapha.cc/rd/en/shop/gloves"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling shorts men",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 1,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 18,
+          "url": "https://lecol.cc/collections/mens-bib-shorts"
+        },
+        "castelli-cycling.com": {
+          "rank": 7,
+          "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Shorts-and-Tights/Shorts/c/Man-Cyc-Bot-B%26S"
+        },
+        "rapha.cc": {
+          "rank": 29,
+          "url": "https://www.rapha.cc/rd/en/shop/bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling shorts mens",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 1,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 14,
+          "url": "https://lecol.cc/collections/mens-bib-shorts"
+        },
+        "castelli-cycling.com": {
+          "rank": 10,
+          "url": "https://www.castelli-cycling.com/PL/en/Men/Cycling/Shorts-and-Tights/Shorts/c/Man-Cyc-Bot-B%26S"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cyclist clothing",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 1.4800000190734863,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 4,
+          "url": "https://lecol.cc/collections/mens-cycling-clothing"
+        },
+        "rapha.cc": {
+          "rank": 14,
+          "url": "https://www.rapha.cc/gb/en"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "shorts for cycling mens",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 1,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 21,
+          "url": "https://lecol.cc/collections/mens-bib-shorts"
+        },
+        "castelli-cycling.com": {
+          "rank": 9,
+          "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Shorts-and-Tights/Shorts/c/Man-Cyc-Bot-B%26S"
+        },
+        "rapha.cc": {
+          "rank": 94,
+          "url": "https://www.rapha.cc/us/en/shop/bib-shorts-and-tights-sale"
+        }
+      },
+      "our_rank": 90
+    },
+    {
+      "keyword": "biker shorts mens",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 1,
+      "competitor_positions": {
+        "castelli-cycling.com": {
+          "rank": 50,
+          "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Shorts-and-Tights/Shorts/c/Man-Cyc-Bot-B%26S"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "castelli",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 0.41999998688697815,
+      "competitor_positions": {
+        "castelli-cycling.com": {
+          "rank": 1,
+          "url": "https://www.castelli-cycling.com/MT/en/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling glove",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 0.8100000023841858,
+      "competitor_positions": {
+        "castelli-cycling.com": {
+          "rank": 11,
+          "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Accessories/Gloves/c/Man-Cyc-Acc-Glo"
+        },
+        "rapha.cc": {
+          "rank": 67,
+          "url": "https://www.rapha.cc/rd/en/shop/gloves"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "men in bicycle shorts",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 1,
+      "competitor_positions": {
+        "castelli-cycling.com": {
+          "rank": 6,
+          "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Shorts-and-Tights/Shorts/c/Man-Cyc-Bot-B%26S"
+        },
+        "rapha.cc": {
+          "rank": 97,
+          "url": "https://www.rapha.cc/us/en"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "men in bike shorts",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 1,
+      "competitor_positions": {
+        "castelli-cycling.com": {
+          "rank": 36,
+          "url": "https://www.castelli-cycling.com/US/en/Men/Cycling/Shorts-and-Tights/Shorts/c/Man-Cyc-Bot-B%26S"
+        },
+        "rapha.cc": {
+          "rank": 99,
+          "url": "https://www.rapha.cc/us/en/shop/bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "tombola game",
+      "search_volume": 5400,
+      "competition": 0.3100000023841858,
+      "cpc": 3.3299999237060547,
+      "competitor_positions": {
+        "castelli-cycling.com": {
+          "rank": 76,
+          "url": "http://blog.castelli-cycling.com/2018/07/03/win-a-sky-ocean-rescue-jersey-2/?comprehensive-review-of-tombola-bingo-and-the-best-gambling-experiences-in-the-uk"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bicycle helmets for men",
+      "search_volume": 5400,
+      "competition": 1,
+      "cpc": 0.5199999809265137,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 49,
+          "url": "https://www.rapha.cc/gb/en/shop/helmets"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "festive 2025",
+      "search_volume": 5400,
+      "competition": 0,
+      "cpc": null,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 5,
+          "url": "https://content.rapha.cc/row/en/story/festive500"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling padded shorts",
+      "search_volume": 4400,
+      "competition": 1,
+      "cpc": 0.8299999833106995,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 38,
+          "url": "https://lecol.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "mens bicycle",
+      "search_volume": 4400,
+      "competition": 1,
+      "cpc": 0.4399999976158142,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 57,
+          "url": "https://lecol.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "team iceland",
+      "search_volume": 4400,
+      "competition": 0,
+      "cpc": null,
+      "competitor_positions": {
+        "castelli-cycling.com": {
+          "rank": 78,
+          "url": "https://www.castelli-cycling.com/GB/en/stories/icelandic-kit"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycle shops london",
+      "search_volume": 4400,
+      "competition": 0.8999999761581421,
+      "cpc": 0.75,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 39,
+          "url": "https://content.rapha.cc/gb/en/clubhouses/london"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling glasses",
+      "search_volume": 4400,
+      "competition": 1,
+      "cpc": 0.9599999785423279,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 24,
+          "url": "https://www.rapha.cc/rd/en/shop/glasses"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "first cycling",
+      "search_volume": 4400,
+      "competition": 0,
+      "cpc": 0.27000001072883606,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 22,
+          "url": "https://www.rapha.cc/us/en"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "rafael cycle",
+      "search_volume": 4400,
+      "competition": 1,
+      "cpc": 0.6700000166893005,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 2,
+          "url": "https://www.rapha.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "rapha cycling",
+      "search_volume": 4400,
+      "competition": 1,
+      "cpc": 0.6700000166893005,
+      "competitor_positions": {
+        "rapha.cc": {
+          "rank": 1,
+          "url": "https://www.rapha.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bicycle waterproof jacket",
+      "search_volume": 3600,
+      "competition": 1,
+      "cpc": 0.949999988079071,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 35,
+          "url": "https://lecol.cc/collections/mens-cycling-jackets"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "bike shorts for womens padded",
+      "search_volume": 3600,
+      "competition": 1,
+      "cpc": 0.9800000190734863,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 22,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "rapha.cc": {
+          "rank": 35,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "club l returns",
+      "search_volume": 3600,
+      "competition": 1,
+      "cpc": 2.309999942779541,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 49,
+          "url": "https://lecol.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cos clothing uk",
+      "search_volume": 3600,
+      "competition": 1,
+      "cpc": 0.30000001192092896,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 36,
+          "url": "https://lecol.cc/"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycle socks",
+      "search_volume": 3600,
+      "competition": 1,
+      "cpc": 1.0399999618530273,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 2,
+          "url": "https://lecol.cc/collections/cycling-socks"
+        }
+      },
+      "our_rank": null
+    },
+    {
+      "keyword": "cycling padded shorts womens",
+      "search_volume": 3600,
+      "competition": 1,
+      "cpc": 0.9800000190734863,
+      "competitor_positions": {
+        "lecol.cc": {
+          "rank": 25,
+          "url": "https://lecol.cc/collections/womens-bib-shorts"
+        },
+        "rapha.cc": {
+          "rank": 22,
+          "url": "https://www.rapha.cc/rd/en/shop/womens-bib-shorts-and-tights"
+        }
+      },
+      "our_rank": null
+    }
+  ],
+  "_cached_at": "2026-03-24T19:22:55.339494"
+}

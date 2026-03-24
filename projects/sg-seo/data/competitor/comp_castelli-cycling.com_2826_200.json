@@ -1,0 +1,1807 @@
+{
+  "domain": "castelli-cycling.com",
+  "total_count": 1627,
+  "keywords": [
+    {
+      "keyword": "tombola uk",
+      "search_volume": 27100,
+      "rank": 75,
+      "url": "http://blog.castelli-cycling.com/2018/07/03/win-a-sky-ocean-rescue-jersey-2/?comprehensive-review-of-tombola-bingo-and-the-best-gambling-experiences-in-the-uk",
+      "competition": 0.1599999964237213,
+      "cpc": 1.0199999809265137,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "legging warmers",
+      "search_volume": 14800,
+      "rank": 86,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Accessories/Warmers/Mild/PRO-SEAMLESS-LEG-WARMER/p/4520583_010",
+      "competition": 1,
+      "cpc": 0.4399999976158142,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bicycle shorts for women",
+      "search_volume": 12100,
+      "rank": 31,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Shorts-and-Tights/Shorts/c/Wom-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "biking shorts for women",
+      "search_volume": 12100,
+      "rank": 84,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycle pants ladies",
+      "search_volume": 12100,
+      "rank": 46,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "female cycling shorts",
+      "search_volume": 12100,
+      "rank": 79,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "spinning shorts womens",
+      "search_volume": 12100,
+      "rank": 89,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Shorts-and-Tights/Shorts/c/Wom-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "woman cycle shorts",
+      "search_volume": 12100,
+      "rank": 71,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Shorts-and-Tights/Shorts/c/Wom-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "womens bike riding shorts",
+      "search_volume": 12100,
+      "rank": 41,
+      "url": "https://www.castelli-cycling.com/US/en/Woman/Cycling/Shorts-and-Tights/Shorts/c/Wom-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 0.8399999737739563,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "apparel cycling",
+      "search_volume": 5400,
+      "rank": 26,
+      "url": "https://www.castelli-cycling.com/GB/en/",
+      "competition": 1,
+      "cpc": 1.4800000190734863,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bicycle shorts men",
+      "search_volume": 5400,
+      "rank": 60,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Shorts-and-Tights/Shorts/c/Man-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 1,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "biker shorts mens",
+      "search_volume": 5400,
+      "rank": 50,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Shorts-and-Tights/Shorts/c/Man-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 1,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "biking outfits",
+      "search_volume": 5400,
+      "rank": 28,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 1.4800000190734863,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "castelli",
+      "search_volume": 5400,
+      "rank": 1,
+      "url": "https://www.castelli-cycling.com/MT/en/",
+      "competition": 1,
+      "cpc": 0.41999998688697815,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycle shorts men's",
+      "search_volume": 5400,
+      "rank": 14,
+      "url": "https://www.castelli-cycling.com/PL/en/Men/Cycling/Shorts-and-Tights/Shorts/c/Man-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 1,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling apparel",
+      "search_volume": 5400,
+      "rank": 41,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 1.4800000190734863,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling clothing",
+      "search_volume": 5400,
+      "rank": 18,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/c/Man",
+      "competition": 1,
+      "cpc": 1.4800000190734863,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling glove",
+      "search_volume": 5400,
+      "rank": 11,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Accessories/Gloves/c/Man-Cyc-Acc-Glo",
+      "competition": 1,
+      "cpc": 0.8100000023841858,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling gloves",
+      "search_volume": 5400,
+      "rank": 9,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Accessories/Gloves/c/Man-Cyc-Acc-Glo",
+      "competition": 1,
+      "cpc": 0.8100000023841858,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling shorts men",
+      "search_volume": 5400,
+      "rank": 7,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Shorts-and-Tights/Shorts/c/Man-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 1,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling shorts mens",
+      "search_volume": 5400,
+      "rank": 10,
+      "url": "https://www.castelli-cycling.com/PL/en/Men/Cycling/Shorts-and-Tights/Shorts/c/Man-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 1,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "men in bicycle shorts",
+      "search_volume": 5400,
+      "rank": 6,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Shorts-and-Tights/Shorts/c/Man-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 1,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "men in bike shorts",
+      "search_volume": 5400,
+      "rank": 36,
+      "url": "https://www.castelli-cycling.com/US/en/Men/Cycling/Shorts-and-Tights/Shorts/c/Man-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 1,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "shorts for cycling mens",
+      "search_volume": 5400,
+      "rank": 9,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Shorts-and-Tights/Shorts/c/Man-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 1,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "tombola game",
+      "search_volume": 5400,
+      "rank": 76,
+      "url": "http://blog.castelli-cycling.com/2018/07/03/win-a-sky-ocean-rescue-jersey-2/?comprehensive-review-of-tombola-bingo-and-the-best-gambling-experiences-in-the-uk",
+      "competition": 0.3100000023841858,
+      "cpc": 3.3299999237060547,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "tri suits",
+      "search_volume": 5400,
+      "rank": 11,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Triathlon/Triathlon-Suits/c/Man-Tri-Sui",
+      "competition": 1,
+      "cpc": 1.4600000381469727,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "team iceland",
+      "search_volume": 4400,
+      "rank": 78,
+      "url": "https://www.castelli-cycling.com/GB/en/stories/icelandic-kit",
+      "competition": 0,
+      "cpc": null,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycle jersey",
+      "search_volume": 3600,
+      "rank": 20,
+      "url": "https://www.castelli-cycling.com/EE/en/Men/Cycling/Top/Jerseys/c/Man-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.100000023841858,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycle jerseys",
+      "search_volume": 3600,
+      "rank": 11,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/c/Man-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.100000023841858,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycle shorts ladies padded",
+      "search_volume": 3600,
+      "rank": 35,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Shorts-and-Tights/Shorts/c/Wom-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 0.9800000190734863,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling jersey",
+      "search_volume": 3600,
+      "rank": 28,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/c/Man-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.100000023841858,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "women's cycling shorts padded",
+      "search_volume": 3600,
+      "rank": 19,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Shorts-and-Tights/Shorts/c/Wom-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 0.9800000190734863,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "womens bicycle padded shorts",
+      "search_volume": 3600,
+      "rank": 15,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Shorts-and-Tights/Shorts/c/Wom-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 0.9800000190734863,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "womens bike shorts padded",
+      "search_volume": 3600,
+      "rank": 84,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 0.9800000190734863,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "base layers ladies",
+      "search_volume": 2900,
+      "rank": 83,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Top/Base-Layers/c/Wom-Cyc-Top-Bas",
+      "competition": 1,
+      "cpc": 1.100000023841858,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bicycle jerseys for men",
+      "search_volume": 2900,
+      "rank": 9,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/c/Man-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.0800000429153442,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bicycle jerseys mens",
+      "search_volume": 2900,
+      "rank": 3,
+      "url": "https://www.castelli-cycling.com/EE/en/Men/Cycling/Top/Jerseys/c/Man-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.0800000429153442,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bike bib shorts",
+      "search_volume": 2900,
+      "rank": 84,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 1.4600000381469727,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bike jerseys mens",
+      "search_volume": 2900,
+      "rank": 5,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/c/Man-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.0800000429153442,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycle jersey men",
+      "search_volume": 2900,
+      "rank": 11,
+      "url": "https://www.castelli-cycling.com/EE/en/Men/Cycling/Top/Jerseys/c/Man-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.0800000429153442,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycle shorts bib",
+      "search_volume": 2900,
+      "rank": 100,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 1.399999976158142,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling bib and shorts",
+      "search_volume": 2900,
+      "rank": 95,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 1.4600000381469727,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling jersey mens",
+      "search_volume": 2900,
+      "rank": 5,
+      "url": "https://www.castelli-cycling.com/EE/en/Men/Cycling/Top/Jerseys/c/Man-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.0800000429153442,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling shorts short",
+      "search_volume": 2900,
+      "rank": 27,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Shorts-and-Tights/Shorts/c/Wom-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 0.7200000286102295,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "female tri suit",
+      "search_volume": 2900,
+      "rank": 15,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Triathlon/Triathlon-Suits/c/Wom-Tri-Sui",
+      "competition": 1,
+      "cpc": 0.8500000238418579,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "female triathlon suit",
+      "search_volume": 2900,
+      "rank": 16,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Triathlon/Triathlon-Suits/c/Wom-Tri-Sui",
+      "competition": 1,
+      "cpc": 0.8500000238418579,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "ladies tri suits",
+      "search_volume": 2900,
+      "rank": 9,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Triathlon/Triathlon-Suits/c/Wom-Tri-Sui",
+      "competition": 1,
+      "cpc": 0.8500000238418579,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "men's bike jersey",
+      "search_volume": 2900,
+      "rank": 3,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/c/Man-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.0800000429153442,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "short cycling shorts",
+      "search_volume": 2900,
+      "rank": 5,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Shorts-and-Tights/Shorts/c/Wom-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 0.7200000286102295,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "tri suit female",
+      "search_volume": 2900,
+      "rank": 8,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Triathlon/Triathlon-Suits/c/Wom-Tri-Sui",
+      "competition": 1,
+      "cpc": 0.8500000238418579,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "tri suit ladies",
+      "search_volume": 2900,
+      "rank": 19,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Triathlon/Triathlon-Suits/c/Wom-Tri-Sui",
+      "competition": 1,
+      "cpc": 0.8500000238418579,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "tri suits ladies",
+      "search_volume": 2900,
+      "rank": 9,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Triathlon/Triathlon-Suits/c/Wom-Tri-Sui",
+      "competition": 1,
+      "cpc": 0.8500000238418579,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "tri suits women",
+      "search_volume": 2900,
+      "rank": 8,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Triathlon/Triathlon-Suits/c/Wom-Tri-Sui",
+      "competition": 1,
+      "cpc": 0.8500000238418579,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "triathlon suit female",
+      "search_volume": 2900,
+      "rank": 9,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Triathlon/Triathlon-Suits/c/Wom-Tri-Sui",
+      "competition": 1,
+      "cpc": 0.8500000238418579,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "triathlon suit ladies",
+      "search_volume": 2900,
+      "rank": 24,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Triathlon/Triathlon-Suits/c/Wom-Tri-Sui",
+      "competition": 1,
+      "cpc": 0.8500000238418579,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "triathlon suits womens",
+      "search_volume": 2900,
+      "rank": 5,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Triathlon/Triathlon-Suits/c/Wom-Tri-Sui",
+      "competition": 1,
+      "cpc": 0.8500000238418579,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "women's tri suit",
+      "search_volume": 2900,
+      "rank": 6,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Triathlon/Triathlon-Suits/c/Wom-Tri-Sui",
+      "competition": 1,
+      "cpc": 0.8500000238418579,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "womens triathlon suit",
+      "search_volume": 2900,
+      "rank": 19,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Triathlon/Triathlon-Suits/c/Wom-Tri-Sui",
+      "competition": 1,
+      "cpc": 0.8500000238418579,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bike padded shorts mens",
+      "search_volume": 2400,
+      "rank": 35,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 0.8500000238418579,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bike shorts padded mens",
+      "search_volume": 2400,
+      "rank": 17,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Shorts-and-Tights/Shorts/c/Man-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 0.8500000238418579,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "biking shorts mens padded",
+      "search_volume": 2400,
+      "rank": 71,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 0.8500000238418579,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "clothing casual",
+      "search_volume": 2400,
+      "rank": 31,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Casual/Casual/c/Man-Cyc-Top-Cas",
+      "competition": 0.9800000190734863,
+      "cpc": 0.8700000047683716,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycle jackets",
+      "search_volume": 2400,
+      "rank": 49,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jackets/c/Man-Cyc-Top-Jac",
+      "competition": 1,
+      "cpc": 1.0199999809265137,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling jacket",
+      "search_volume": 2400,
+      "rank": 17,
+      "url": "https://www.castelli-cycling.com/SI/en/Men/Cycling/Top/Jackets/c/Man-Cyc-Top-Jac",
+      "competition": 1,
+      "cpc": 1.0199999809265137,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling mitts winter",
+      "search_volume": 2400,
+      "rank": 77,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Accessories/Gloves/c/Man-Cyc-Acc-Glo",
+      "competition": 1,
+      "cpc": 0.7400000095367432,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "gloves winter cycling",
+      "search_volume": 2400,
+      "rank": 46,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Accessories/Gloves/Winter/c/Man-Cyc-Acc-Glo-Win",
+      "competition": 1,
+      "cpc": 0.7400000095367432,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "jackets for cycling",
+      "search_volume": 2400,
+      "rank": 20,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jackets/c/Man-Cyc-Top-Jac",
+      "competition": 1,
+      "cpc": 1.0199999809265137,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "mens cycling padded shorts",
+      "search_volume": 2400,
+      "rank": 77,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 0.8500000238418579,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "mountain biking jerseys",
+      "search_volume": 2400,
+      "rank": 92,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 0.9399999976158142,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "mtb clothes",
+      "search_volume": 2400,
+      "rank": 32,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 1.0099999904632568,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "padded cycling shorts for men",
+      "search_volume": 2400,
+      "rank": 60,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 0.8500000238418579,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bike attire men",
+      "search_volume": 1900,
+      "rank": 55,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 1.6299999952316284,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bike clothing for men",
+      "search_volume": 1900,
+      "rank": 23,
+      "url": "https://www.castelli-cycling.com/GB/en/",
+      "competition": 1,
+      "cpc": 1.6299999952316284,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycle gear",
+      "search_volume": 1900,
+      "rank": 33,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 0.9900000095367432,
+      "cpc": 1.559999942779541,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycle wear for men",
+      "search_volume": 1900,
+      "rank": 30,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 1.6299999952316284,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling apparel men",
+      "search_volume": 1900,
+      "rank": 3,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/c/Man",
+      "competition": 1,
+      "cpc": 1.6299999952316284,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling clothes men",
+      "search_volume": 1900,
+      "rank": 3,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/c/Man",
+      "competition": 1,
+      "cpc": 1.6299999952316284,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling clothing mens",
+      "search_volume": 1900,
+      "rank": 20,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/c/Man",
+      "competition": 1,
+      "cpc": 1.6299999952316284,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling gear",
+      "search_volume": 1900,
+      "rank": 6,
+      "url": "https://www.castelli-cycling.com/MT/en/",
+      "competition": 0.9900000095367432,
+      "cpc": 1.559999942779541,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling gear for men",
+      "search_volume": 1900,
+      "rank": 22,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/c/Man",
+      "competition": 1,
+      "cpc": 1.6299999952316284,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling gear men",
+      "search_volume": 1900,
+      "rank": 12,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/c/Man",
+      "competition": 1,
+      "cpc": 1.6299999952316284,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling outfit men",
+      "search_volume": 1900,
+      "rank": 29,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 1.6299999952316284,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling outfits men",
+      "search_volume": 1900,
+      "rank": 9,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/c/Man",
+      "competition": 1,
+      "cpc": 1.6299999952316284,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "men triathlon suits",
+      "search_volume": 1900,
+      "rank": 15,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Triathlon/Triathlon-Suits/c/Man-Tri-Sui",
+      "competition": 1,
+      "cpc": 1.5399999618530273,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "men trisuit",
+      "search_volume": 1900,
+      "rank": 7,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Triathlon/Triathlon-Suits/c/Man-Tri-Sui",
+      "competition": 1,
+      "cpc": 1.5399999618530273,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "men's bike clothes",
+      "search_volume": 1900,
+      "rank": 18,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/c/Man",
+      "competition": 1,
+      "cpc": 1.6299999952316284,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "men's cycling outfits",
+      "search_volume": 1900,
+      "rank": 11,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/c/Man",
+      "competition": 1,
+      "cpc": 1.6299999952316284,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "mens bicycle clothing",
+      "search_volume": 1900,
+      "rank": 48,
+      "url": "https://www.castelli-cycling.com/GB/en/",
+      "competition": 1,
+      "cpc": 1.6299999952316284,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "mens cycle wear",
+      "search_volume": 1900,
+      "rank": 14,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/c/Man",
+      "competition": 1,
+      "cpc": 1.6299999952316284,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "mens tri suit",
+      "search_volume": 1900,
+      "rank": 18,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Triathlon/Triathlon-Suits/c/Man-Tri-Sui",
+      "competition": 1,
+      "cpc": 1.5399999618530273,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "tri suits for men",
+      "search_volume": 1900,
+      "rank": 13,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Triathlon/Triathlon-Suits/c/Man-Tri-Sui",
+      "competition": 1,
+      "cpc": 1.5399999618530273,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "triathlon suit for men",
+      "search_volume": 1900,
+      "rank": 8,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Triathlon/Triathlon-Suits/c/Man-Tri-Sui",
+      "competition": 1,
+      "cpc": 1.5399999618530273,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bib shorts castelli",
+      "search_volume": 1600,
+      "rank": 1,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Shorts-and-Tights/Shorts/Bib/c/Man-Cyc-Bot-B%26S-Bib",
+      "competition": 1,
+      "cpc": 0.5899999737739563,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bicycle clothing for women",
+      "search_volume": 1600,
+      "rank": 10,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/c/Woman",
+      "competition": 1,
+      "cpc": 1.4900000095367432,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bicycle jackets mens",
+      "search_volume": 1600,
+      "rank": 19,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jackets/c/Man-Cyc-Top-Jac",
+      "competition": 1,
+      "cpc": 0.9300000071525574,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bike clothing for women",
+      "search_volume": 1600,
+      "rank": 19,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/c/Woman",
+      "competition": 1,
+      "cpc": 1.4900000095367432,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bike jersey long sleeve",
+      "search_volume": 1600,
+      "rank": 18,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/Long-Sleeve/c/Man-Cyc-Top-Jer-Lsl",
+      "competition": 1,
+      "cpc": 0.9399999976158142,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "black shorts cycling",
+      "search_volume": 1600,
+      "rank": 88,
+      "url": "https://www.castelli-cycling.com/PL/en/Men/Cycling/Shorts-and-Tights/Shorts/c/Man-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 0.6399999856948853,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "castelli bib short",
+      "search_volume": 1600,
+      "rank": 1,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Shorts-and-Tights/Shorts/c/Man-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 0.5899999737739563,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "castelli bib shorts",
+      "search_volume": 1600,
+      "rank": 1,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Shorts-and-Tights/Shorts/Bib/c/Man-Cyc-Bot-B%26S-Bib",
+      "competition": 1,
+      "cpc": 0.5899999737739563,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "castelli bibshort",
+      "search_volume": 1600,
+      "rank": 1,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Shorts-and-Tights/Shorts/Bib/c/Man-Cyc-Bot-B%26S-Bib",
+      "competition": 1,
+      "cpc": 0.5899999737739563,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "castelli italia",
+      "search_volume": 1600,
+      "rank": 2,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Collection/Team-Italia/c/Man-Col-Tea",
+      "competition": 0.009999999776482582,
+      "cpc": 0.3199999928474426,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycle jersey women",
+      "search_volume": 1600,
+      "rank": 13,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Top/Jerseys/c/Wom-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.190000057220459,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycle shorts womens",
+      "search_volume": 1600,
+      "rank": 73,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 0.7200000286102295,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycle top",
+      "search_volume": 1600,
+      "rank": 11,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/c/Man-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.2200000286102295,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling clothes for woman",
+      "search_volume": 1600,
+      "rank": 96,
+      "url": "https://www.castelli-cycling.com/GB/en/",
+      "competition": 1,
+      "cpc": 1.4900000095367432,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling clothes woman",
+      "search_volume": 1600,
+      "rank": 39,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/c/Woman",
+      "competition": 1,
+      "cpc": 1.4900000095367432,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling clothes women",
+      "search_volume": 1600,
+      "rank": 17,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/c/Woman",
+      "competition": 1,
+      "cpc": 1.4900000095367432,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling clothing woman",
+      "search_volume": 1600,
+      "rank": 14,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/c/Woman",
+      "competition": 1,
+      "cpc": 1.4900000095367432,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling jacket men",
+      "search_volume": 1600,
+      "rank": 23,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jackets/c/Man-Cyc-Top-Jac",
+      "competition": 1,
+      "cpc": 0.9300000071525574,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling jacket men's",
+      "search_volume": 1600,
+      "rank": 9,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jackets/c/Man-Cyc-Top-Jac",
+      "competition": 1,
+      "cpc": 0.9300000071525574,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling shirt long sleeve",
+      "search_volume": 1600,
+      "rank": 18,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/Long-Sleeve/c/Man-Cyc-Top-Jer-Lsl",
+      "competition": 1,
+      "cpc": 0.9399999976158142,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling top",
+      "search_volume": 1600,
+      "rank": 13,
+      "url": "https://www.castelli-cycling.com/EE/en/Men/Cycling/Top/Jerseys/c/Man-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.2200000286102295,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling tops",
+      "search_volume": 1600,
+      "rank": 19,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/c/Man-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.2200000286102295,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "filippo ganna",
+      "search_volume": 1600,
+      "rank": 16,
+      "url": "https://www.castelli-cycling.com/GB/en/stories/filippo-ganna",
+      "competition": 0,
+      "cpc": null,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "ladies cycling clothing",
+      "search_volume": 1600,
+      "rank": 14,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/c/Woman",
+      "competition": 1,
+      "cpc": 1.4900000095367432,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "long sleeve bike jersey",
+      "search_volume": 1600,
+      "rank": 9,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/Long-Sleeve/c/Man-Cyc-Top-Jer-Lsl",
+      "competition": 1,
+      "cpc": 0.9399999976158142,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "long sleeve cycling shirts",
+      "search_volume": 1600,
+      "rank": 73,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/Long-Sleeve/c/Man-Cyc-Top-Jer-Lsl",
+      "competition": 1,
+      "cpc": 0.9399999976158142,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "long-sleeve cycling jersey",
+      "search_volume": 1600,
+      "rank": 9,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/Long-Sleeve/c/Man-Cyc-Top-Jer-Lsl",
+      "competition": 1,
+      "cpc": 0.9399999976158142,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "women's cycle jersey",
+      "search_volume": 1600,
+      "rank": 3,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Top/Jerseys/c/Wom-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.190000057220459,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bicycle clothing",
+      "search_volume": 1300,
+      "rank": 30,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 1.0199999809265137,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bicycle socks mens",
+      "search_volume": 1300,
+      "rank": 23,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Accessories/Socks/c/Man-Cyc-Acc-Soc",
+      "competition": 1,
+      "cpc": 0.9300000071525574,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bike apparel",
+      "search_volume": 1300,
+      "rank": 28,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 1.0199999809265137,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bike clothing",
+      "search_volume": 1300,
+      "rank": 44,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 1.0199999809265137,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bike socks for men",
+      "search_volume": 1300,
+      "rank": 10,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Accessories/Socks/c/Man-Cyc-Acc-Soc",
+      "competition": 1,
+      "cpc": 0.9300000071525574,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "biking clothes",
+      "search_volume": 1300,
+      "rank": 26,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 1.0199999809265137,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "coolest clothing",
+      "search_volume": 1300,
+      "rank": 35,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 0.5299999713897705,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycle socks mens",
+      "search_volume": 1300,
+      "rank": 8,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Accessories/Socks/c/Man-Cyc-Acc-Soc",
+      "competition": 1,
+      "cpc": 0.9300000071525574,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling socks mens",
+      "search_volume": 1300,
+      "rank": 13,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Accessories/Socks/c/Man-Cyc-Acc-Soc",
+      "competition": 1,
+      "cpc": 0.9300000071525574,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "gore cycle clothes",
+      "search_volume": 1300,
+      "rank": 52,
+      "url": "https://www.castelli-cycling.com/GB/en/winter-cycling-clothing",
+      "competition": 1,
+      "cpc": 0.7699999809265137,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "jrs bike",
+      "search_volume": 1300,
+      "rank": 16,
+      "url": "https://www.castelli-cycling.com/HR/en/Men/Cycling/Top/Jerseys/Short-sleeve/AERO-RACE-6-0-JERSEY/p/4523009_085",
+      "competition": 1,
+      "cpc": 0.8199999928474426,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "long sleeve jersey",
+      "search_volume": 1300,
+      "rank": 19,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/Long-Sleeve/c/Man-Cyc-Top-Jer-Lsl",
+      "competition": 1,
+      "cpc": 0.5699999928474426,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "long sleeve jerseys",
+      "search_volume": 1300,
+      "rank": 9,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/Long-Sleeve/c/Man-Cyc-Top-Jer-Lsl",
+      "competition": 1,
+      "cpc": 0.5699999928474426,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "mens bike socks",
+      "search_volume": 1300,
+      "rank": 10,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Accessories/Socks/c/Man-Cyc-Acc-Soc",
+      "competition": 1,
+      "cpc": 0.9300000071525574,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "mens cycling socks",
+      "search_volume": 1300,
+      "rank": 6,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Accessories/Socks/c/Man-Cyc-Acc-Soc",
+      "competition": 1,
+      "cpc": 0.9300000071525574,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bike riding winter gear",
+      "search_volume": 1000,
+      "rank": 10,
+      "url": "https://www.castelli-cycling.com/GB/en/winter-cycling-clothing",
+      "competition": 1,
+      "cpc": 1.2599999904632568,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bike winter jacket",
+      "search_volume": 1000,
+      "rank": 4,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jackets/c/Man-Cyc-Top-Jac",
+      "competition": 1,
+      "cpc": 1.059999942779541,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "clothes for cycling in winter",
+      "search_volume": 1000,
+      "rank": 10,
+      "url": "https://www.castelli-cycling.com/GB/en/winter-cycling-clothing",
+      "competition": 1,
+      "cpc": 1.2599999904632568,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycle clothing for winter",
+      "search_volume": 1000,
+      "rank": 9,
+      "url": "https://www.castelli-cycling.com/GB/en/winter-cycling-clothing",
+      "competition": 1,
+      "cpc": 1.2599999904632568,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycle wear winter",
+      "search_volume": 1000,
+      "rank": 12,
+      "url": "https://www.castelli-cycling.com/GB/en/winter-cycling-clothing",
+      "competition": 1,
+      "cpc": 1.2599999904632568,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling gear winter",
+      "search_volume": 1000,
+      "rank": 13,
+      "url": "https://www.castelli-cycling.com/GB/en/winter-cycling-clothing",
+      "competition": 1,
+      "cpc": 1.2599999904632568,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling jacket winter",
+      "search_volume": 1000,
+      "rank": 18,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jackets/c/Man-Cyc-Top-Jac",
+      "competition": 1,
+      "cpc": 1.059999942779541,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling rain jacket",
+      "search_volume": 1000,
+      "rank": 9,
+      "url": "https://www.castelli-cycling.com/BG/en/Men/Cycling/Top/Protection/c/Man-Cyc-Top-Pro",
+      "competition": 1,
+      "cpc": 0.9800000190734863,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling top mens",
+      "search_volume": 1000,
+      "rank": 3,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/c/Man-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.2599999904632568,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling winter gear",
+      "search_volume": 1000,
+      "rank": 8,
+      "url": "https://www.castelli-cycling.com/GB/en/winter-cycling-clothing",
+      "competition": 1,
+      "cpc": 1.2599999904632568,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling winter wear",
+      "search_volume": 1000,
+      "rank": 6,
+      "url": "https://www.castelli-cycling.com/GB/en/winter-cycling-clothing",
+      "competition": 1,
+      "cpc": 1.2599999904632568,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "men's cycle bib shorts",
+      "search_volume": 1000,
+      "rank": 33,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Shorts-and-Tights/Shorts/Bib/c/Man-Cyc-Bot-B%26S-Bib",
+      "competition": 1,
+      "cpc": 1.5199999809265137,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "men's cycling tops",
+      "search_volume": 1000,
+      "rank": 4,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/c/Man-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.2599999904632568,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "mens cycle tops",
+      "search_volume": 1000,
+      "rank": 12,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/c/Man-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.2599999904632568,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "mens cycling bib shorts",
+      "search_volume": 1000,
+      "rank": 94,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 1.5199999809265137,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "rain jackets for cycling",
+      "search_volume": 1000,
+      "rank": 72,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Protection/c/Man-Cyc-Top-Pro",
+      "competition": 1,
+      "cpc": 0.9800000190734863,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "red scorpion",
+      "search_volume": 1000,
+      "rank": 61,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 0,
+      "cpc": null,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "red scorpions",
+      "search_volume": 1000,
+      "rank": 34,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 0,
+      "cpc": null,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "trisuit women",
+      "search_volume": 1000,
+      "rank": 30,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Triathlon/Triathlon-Suits/c/Wom-Tri-Sui",
+      "competition": 1,
+      "cpc": 0.9399999976158142,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "winter bike clothing",
+      "search_volume": 1000,
+      "rank": 21,
+      "url": "https://www.castelli-cycling.com/US/en/winter-cycling-clothing",
+      "competition": 1,
+      "cpc": 1.2599999904632568,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "winter bike riding gear",
+      "search_volume": 1000,
+      "rank": 17,
+      "url": "https://www.castelli-cycling.com/US/en/winter-cycling-clothing",
+      "competition": 1,
+      "cpc": 1.2599999904632568,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "winter biking clothes",
+      "search_volume": 1000,
+      "rank": 9,
+      "url": "https://www.castelli-cycling.com/GB/en/winter-cycling-clothing",
+      "competition": 1,
+      "cpc": 1.2599999904632568,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "winter biking gear",
+      "search_volume": 1000,
+      "rank": 22,
+      "url": "https://www.castelli-cycling.com/GB/en/winter-cycling-clothing",
+      "competition": 1,
+      "cpc": 1.2599999904632568,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "winter clothing cycling",
+      "search_volume": 1000,
+      "rank": 8,
+      "url": "https://www.castelli-cycling.com/GB/en/winter-cycling-clothing",
+      "competition": 1,
+      "cpc": 1.2599999904632568,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "winter cycle jackets",
+      "search_volume": 1000,
+      "rank": 26,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jackets/c/Man-Cyc-Top-Jac",
+      "competition": 1,
+      "cpc": 1.059999942779541,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "winter cycling wear",
+      "search_volume": 1000,
+      "rank": 7,
+      "url": "https://www.castelli-cycling.com/GB/en/winter-cycling-clothing",
+      "competition": 1,
+      "cpc": 1.2599999904632568,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "winter gear cycling",
+      "search_volume": 1000,
+      "rank": 7,
+      "url": "https://www.castelli-cycling.com/GB/en/winter-cycling-clothing",
+      "competition": 1,
+      "cpc": 1.2599999904632568,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "women's trisuit",
+      "search_volume": 1000,
+      "rank": 22,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Triathlon/Triathlon-Suits/c/Wom-Tri-Sui",
+      "competition": 1,
+      "cpc": 0.9399999976158142,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "base layers cycling",
+      "search_volume": 880,
+      "rank": 35,
+      "url": "https://www.castelli-cycling.com/II/en/Men/Cycling/Top/Base-Layers/c/Man-Cyc-Top-Bas",
+      "competition": 1,
+      "cpc": 0.8199999928474426,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "best bike shoe",
+      "search_volume": 880,
+      "rank": 75,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 0.800000011920929,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "best gloves winter cycling",
+      "search_volume": 880,
+      "rank": 39,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Accessories/Gloves/Winter/c/Man-Cyc-Acc-Glo-Win",
+      "competition": 1,
+      "cpc": 0.9300000071525574,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bib shorts cycling women",
+      "search_volume": 880,
+      "rank": 20,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Shorts-and-Tights/Shorts/Bib/UNLIMITED-CARGO-W-BIBSHORT/p/4523048_010",
+      "competition": 1,
+      "cpc": 1.3799999952316284,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bib shorts women",
+      "search_volume": 880,
+      "rank": 20,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Shorts-and-Tights/Shorts/c/Wom-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 1.1100000143051147,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "castelli cycle",
+      "search_volume": 880,
+      "rank": 1,
+      "url": "https://www.castelli-cycling.com/GB/en/",
+      "competition": 1,
+      "cpc": 0.5400000214576721,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "castelli cycling",
+      "search_volume": 880,
+      "rank": 1,
+      "url": "https://www.castelli-cycling.com/GB/en/",
+      "competition": 1,
+      "cpc": 0.5400000214576721,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling base layer",
+      "search_volume": 880,
+      "rank": 24,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Base-Layers/c/Man-Cyc-Top-Bas",
+      "competition": 1,
+      "cpc": 0.8199999928474426,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling jerseys",
+      "search_volume": 880,
+      "rank": 11,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/c/Man-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.4199999570846558,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling top ladies",
+      "search_volume": 880,
+      "rank": 9,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Top/Jerseys/c/Wom-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.2899999618530273,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling top women's",
+      "search_volume": 880,
+      "rank": 5,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Top/Jerseys/c/Wom-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.2899999618530273,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cycling tops ladies",
+      "search_volume": 880,
+      "rank": 13,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Top/Jerseys/c/Wom-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.2899999618530273,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cyclist jersey",
+      "search_volume": 880,
+      "rank": 20,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/c/Man-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.4199999570846558,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "cyclists jersey",
+      "search_volume": 880,
+      "rank": 19,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/c/Man-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.4199999570846558,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "fingerless cycling mitts",
+      "search_volume": 880,
+      "rank": 23,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Accessories/Gloves/c/Man-Cyc-Acc-Glo",
+      "competition": 1,
+      "cpc": 0.6000000238418579,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "gore gore tex cycling jacket",
+      "search_volume": 880,
+      "rank": 31,
+      "url": "https://www.castelli-cycling.com/GB/en/GORE-TEX-WEEKS/c/gtx",
+      "competition": 1,
+      "cpc": 1.340000033378601,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "italy national team kit",
+      "search_volume": 880,
+      "rank": 31,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Collection/Team-Italia/c/Man-Col-Tea",
+      "competition": 1,
+      "cpc": 0.550000011920929,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "ladies cycling bib shorts",
+      "search_volume": 880,
+      "rank": 27,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Shorts-and-Tights/Shorts/c/Wom-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 1.3799999952316284,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "leg sleeves woman",
+      "search_volume": 880,
+      "rank": 4,
+      "url": "https://www.castelli-cycling.com/FI/en/Woman/Triathlon/Triathlon-Accessories/FAST-LEGS-SLEEVES/p/8623088_010",
+      "competition": 0.05000000074505806,
+      "cpc": 0.5799999833106995,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "mountain bike jerseys long sleeve",
+      "search_volume": 880,
+      "rank": 38,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Top/Jerseys/Long-Sleeve/c/Man-Cyc-Top-Jer-Lsl",
+      "competition": 1,
+      "cpc": 1.0700000524520874,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "racing jacket womens",
+      "search_volume": 880,
+      "rank": 89,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 0.6700000166893005,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "scorpion shoes",
+      "search_volume": 880,
+      "rank": 27,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 0.17000000178813934,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "soudal quick-step",
+      "search_volume": 880,
+      "rank": 9,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Collection/Soudal-Quick-Step/c/Man-Col-QUI",
+      "competition": 0.12999999523162842,
+      "cpc": 0.4099999964237213,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "soudal quickstep",
+      "search_volume": 880,
+      "rank": 3,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Collection/Soudal-Quick-Step/c/Man-Col-QUI",
+      "competition": 0.12999999523162842,
+      "cpc": 0.4099999964237213,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "soudal-quickstep",
+      "search_volume": 880,
+      "rank": 5,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Collection/Soudal-Quick-Step/c/Man-Col-QUI",
+      "competition": 0.12999999523162842,
+      "cpc": 0.4099999964237213,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "tights men's",
+      "search_volume": 880,
+      "rank": 91,
+      "url": "https://www.castelli-cycling.com/GB/en/Men/Cycling/Shorts-and-Tights/Tights/c/Man-Cyc-Bot-B%26K",
+      "competition": 1,
+      "cpc": 0.4399999976158142,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "vintage cycling jerseys",
+      "search_volume": 880,
+      "rank": 44,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 0.8999999761581421,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "women's bib shorts cycling",
+      "search_volume": 880,
+      "rank": 43,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Shorts-and-Tights/Shorts/c/Wom-Cyc-Bot-B%26S",
+      "competition": 1,
+      "cpc": 1.3799999952316284,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "womens cycling jackets",
+      "search_volume": 880,
+      "rank": 15,
+      "url": "https://www.castelli-cycling.com/MT/en/Woman/Cycling/Top/Jackets/c/Wom-Cyc-Top-Jac",
+      "competition": 1,
+      "cpc": 1.0499999523162842,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "womens cycling tops",
+      "search_volume": 880,
+      "rank": 5,
+      "url": "https://www.castelli-cycling.com/GB/en/Woman/Cycling/Top/Jerseys/c/Wom-Cyc-Top-Jer",
+      "competition": 1,
+      "cpc": 1.2899999618530273,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "arm warmers cycling",
+      "search_volume": 720,
+      "rank": 7,
+      "url": "https://www.castelli-cycling.com/BG/en/Men/Cycling/Accessories/Warmers/c/Man-Cyc-Acc-War",
+      "competition": 1,
+      "cpc": 0.6600000262260437,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "best shorts for cycling",
+      "search_volume": 720,
+      "rank": 29,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 1.309999942779541,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bicycle clothing brands",
+      "search_volume": 720,
+      "rank": 1,
+      "url": "https://www.castelli-cycling.com/GB/en/",
+      "competition": 1,
+      "cpc": 1.2799999713897705,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "bike clothing brand",
+      "search_volume": 720,
+      "rank": 7,
+      "url": "https://www.castelli-cycling.com/GB/en/",
+      "competition": 1,
+      "cpc": 1.2799999713897705,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "custom cycling jersey",
+      "search_volume": 720,
+      "rank": 23,
+      "url": "https://www.castelli-cycling.com/GB/en/custom-cycling-clothing/castelli-custom-cycling-clothing",
+      "competition": 1,
+      "cpc": 5.039999961853027,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "custom cycling shirts",
+      "search_volume": 720,
+      "rank": 63,
+      "url": "https://www.castelli-cycling.com/US/en/",
+      "competition": 1,
+      "cpc": 5.039999961853027,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "customize cycling jersey",
+      "search_volume": 720,
+      "rank": 19,
+      "url": "https://www.castelli-cycling.com/GB/en/custom-cycling-clothing/castelli-custom-cycling-clothing",
+      "competition": 1,
+      "cpc": 5.039999961853027,
+      "keyword_difficulty": null
+    }
+  ],
+  "_cached_at": "2026-03-24T19:22:21.998773"
+}
