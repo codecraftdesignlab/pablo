@@ -85,6 +85,25 @@ def update_category(category_id, **kwargs):
 	return _put(f"products/categories/{category_id}", kwargs)
 
 
+# --- Tags ---
+
+def get_tags(per_page=100):
+	"""Fetch all product tags (handles pagination)."""
+	tags = []
+	page = 1
+	while True:
+		resp = _get("products/tags", {"per_page": per_page, "page": page})
+		batch = resp.json()
+		if not batch:
+			break
+		tags.extend(batch)
+		total_pages = int(resp.headers.get("X-WP-TotalPages", 1))
+		if page >= total_pages:
+			break
+		page += 1
+	return tags
+
+
 # --- Products ---
 
 def get_product(product_id):
